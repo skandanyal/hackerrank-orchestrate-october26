@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+Template length: 0
+Template head: []
+Template tail: []
+Does template match deletion_requests exactly?: False

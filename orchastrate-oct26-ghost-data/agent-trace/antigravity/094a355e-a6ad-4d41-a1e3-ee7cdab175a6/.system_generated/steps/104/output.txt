@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Total distinct resources in sample_output: 111
+Sample resources: ['account_002', 'account_5482', 'analytics_4566', 'audit_record_3954', 'support_002', 'search_4013', 'audit_record_7068', 'search_1993', 'account_007', 'support_4707']
+How many sample resources are in system_activity.csv? 85 / 111

@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+def is_deletion_request(text: str) -> bool:
+class IdentityResolver:
+class EvidenceIndex:
+def sort_steps(steps: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+class DeletionAuditAgent:
+def run_audit(dataset_dir: str, input_csv: str, output_csv: str):
+def main():

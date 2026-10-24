@@ -1,0 +1,38 @@
+Command exited with code 1.
+
+Command output:
+=== Ghost Data Still Exists: Evaluation Suite ===
+Loaded 32 sample ground truth cases from dataset/sample_output.csv.
+
+Baseline Self-Test Results (Ideal 100%):
+  total_cases         : 32
+  status_accuracy     : 100.00%
+  precision           : 100.00%
+  recall              : 100.00%
+  f1                  : 100.00%
+  field_accuracy      : 100.00%
+  sequence_accuracy   : 100.00%
+  matched_steps       : 193
+  expected_steps      : 193
+  predicted_steps     : 193
+
+Evaluation Results for sample_predictions.csv:
+  total_cases         : 32
+  status_accuracy     : 100.00%
+  precision           :  85.71%
+  recall              :  80.83%
+  f1                  :  83.20%
+  field_accuracy      : 100.00%
+  sequence_accuracy   :  43.75%
+  matched_steps       : 156
+  expected_steps      : 193
+  predicted_steps     : 182
+
+Loaded 3 custom test cases.
+Traceback (most recent call last):
+  File "/home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/code/evaluation/main.py", line 162, in <module>
+    main()
+  File "/home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/code/evaluation/main.py", line 158, in main
+    print(f"  - [{tc['case_id']}] {tc['title']}: Expected {tc['expected_status']} ({len(tc['expected_steps'])} steps)")
+                                   ~~^^^^^^^^^
+KeyError: 'title'

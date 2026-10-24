@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+=== case_01 (user_01) ===
+Steps resources: ['account_001']
+Matched activity: [('activity_3342', 'DELETE_RECORD', 'account_service', 'account_001')]
+=== case_02 (user_02) ===
+Steps resources: ['account_002']
+Matched activity: [('activity_3376', 'DELETE_RECORD', 'account_service', 'account_002')]
+=== case_03 (user_43) ===
+Steps resources: ['account_7566', 'audit_record_2016', 'analytics_9406']
+Matched activity: [('activity_3851', 'DELETE_RECORD', 'account_service', 'account_7566'), ('activity_3852', 'ANONYMIZE_RECORD', 'analytics_platform', 'analytics_9406')]
+=== case_04 (user_04) ===
+Steps resources: ['account_004', 'analytics_901']
+Matched activity: [('activity_3463', 'ANONYMIZE_RECORD', 'analytics_platform', 'analytics_901')]
+=== case_05 (user_05) ===
+Steps resources: ['account_005', 'account_005', 'account_005']
+Matched activity: [('activity_3482', 'DELETE_RECORD', 'account_service', 'account_005'), ('activity_3483', 'SYNC_RECORD', 'account_failover_replica', 'account_005')]
+=== case_06 (user_06) ===
+Steps resources: ['search_001', 'search_001', 'account_006', 'search_001']
+Matched activity: [('activity_3545', 'DELETE_RECORD', 'account_service', 'account_006'), ('activity_3546', 'DELETE_RECORD', 'search_service', 'search_001')]
+=== case_07 (user_07) ===
+Steps resources: ['support_001', 'support_001', 'account_007', 'support_001']
+Matched activity: [('activity_3590', 'DELETE_RECORD', 'account_service', 'account_007'), ('activity_4007', 'LINK_RESOURCE_IDENTITY', 'object_storage', 'object_19')]
+=== case_08 (user_08) ===
+Steps resources: ['export_001', 'export_001', 'account_008', 'export_001']
+Matched activity: [('activity_3554', 'DELETE_RECORD', 'account_service', 'account_008'), ('activity_3555', 'DELETE_RECORD', 'export_service', 'export_001')]
+=== case_09 (user_61) ===
+Steps resources: ['backup_4978', 'backup_4978', 'account_3960', 'audit_record_4902', 'backup_4978']
+Matched activity: [('activity_3703', 'DELETE_RECORD', 'account_service', 'account_3960'), ('activity_3709', 'CHECK_RESTORE_ACCESS', 'backup_service', 'backup_4978')]
+=== case_10 (unknown) ===
+Steps resources: ['support_002', 'support_002', 'account_010', 'support_002']
+Matched activity: [('activity_3595', 'DELETE_RECORD', 'account_service', 'account_010'), ('activity_3596', 'DELETE_RECORD', 'support_platform', 'support_002')]

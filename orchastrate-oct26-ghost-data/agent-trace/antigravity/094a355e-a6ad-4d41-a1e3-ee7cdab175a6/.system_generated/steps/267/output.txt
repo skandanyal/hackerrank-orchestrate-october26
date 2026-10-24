@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Sample users with direct match in system_activity.csv: 2 / 32

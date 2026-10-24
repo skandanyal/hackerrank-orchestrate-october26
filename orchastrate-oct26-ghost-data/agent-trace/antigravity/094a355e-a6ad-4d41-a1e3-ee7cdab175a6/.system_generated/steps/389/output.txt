@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+Total rows in output.csv: 518
+Status counts:
+deletion_status
+INCOMPLETE        267
+COMPLETE          241
+NOT_APPLICABLE     10
+Name: count, dtype: int64
+All 518 rows strictly pass all validation checks!

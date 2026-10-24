@@ -1,0 +1,138 @@
+Command exited with code 0.
+
+Command output:
+=== case_01 ===
+Email: amina.elmasri@gmail.com
+Reported: COMPLETE at 2026-08-20T16:42:00Z
+Audit at: 2026-09-03T11:30:00Z
+Status: COMPLETE
+Steps: [
+  {
+    "evidence_id": "evidence_54",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "phase": "VERIFICATION",
+    "resource_id": "account_001",
+    "state": "ABSENT",
+    "step_no": 1,
+    "system_id": "account_service"
+  }
+]
+User: {'user_id': 'user_01', 'name': 'Amina El-Masri', 'email': 'amina.elmasri@gmail.com', 'phone': '+971 50 482 7316', 'email_hash': 'd4e1f59abcf9a1e0cfdc7c27ad6c07ed4ff88b326a16ed5eed5ec6bc31618c93', 'updated_at': '2026-05-28T04:03:00Z'}
+
+=== case_02 ===
+Email: mateo.rios@outlook.com
+Reported: PARTIALLY_COMPLETE at 2026-08-22T07:25:00Z
+Audit at: 2026-09-04T15:00:00Z
+Status: COMPLETE
+Steps: [
+  {
+    "evidence_id": "evidence_54",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "phase": "VERIFICATION",
+    "resource_id": "account_002",
+    "state": "ABSENT",
+    "step_no": 1,
+    "system_id": "account_service"
+  }
+]
+User: {'user_id': 'user_02', 'name': 'Mateo Ríos', 'email': 'mateo.rios@outlook.com', 'phone': '+34 612 847 593', 'email_hash': 'fad1c282b6b8ff346ee92e617331f69c2b6bb345af954eeb44581c57529eab9d', 'updated_at': '2026-04-24T07:44:00Z'}
+
+=== case_03 ===
+Email: l.fontaine46@yahoo.com
+Reported: COMPLETE at 2026-09-15T11:00:00Z
+Audit at: 2026-09-26T11:00:00Z
+Status: COMPLETE
+Steps: [
+  {
+    "step_no": 1,
+    "phase": "VERIFICATION",
+    "system_id": "account_service",
+    "resource_id": "account_7566",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "state": "ABSENT",
+    "evidence_id": "evidence_94"
+  },
+  {
+    "step_no": 2,
+    "phase": "VERIFICATION",
+    "system_id": "security_service",
+    "resource_id": "audit_record_2016",
+    "operation": "VERIFY_RECORD_PRESENT",
+    "state": "PRESENT",
+    "evidence_id": "evidence_94"
+  },
+  {
+    "step_no": 3,
+    "phase": "VERIFICATION",
+    "system_id": "analytics_platform",
+    "resource_id": "analytics_9406",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "state": "ANONYMIZED",
+    "evidence_id": "evidence_94"
+  }
+]
+User: {'user_id': 'user_43', 'name': 'Louis Fontaine', 'email': 'l.fontaine46@yahoo.com', 'phone': '+33 6 80 08 96 38', 'email_hash': '4b065493f4403c03ee3cd593b75b03cb6085134a7acb5c5c63ed71d3da346c77', 'updated_at': '2026-01-04T21:41:00Z'}
+
+=== case_04 ===
+Email: thandiwe.n@gmail.com
+Reported: COMPLETE at 2026-08-27T08:54:00Z
+Audit at: 2026-09-07T10:20:00Z
+Status: COMPLETE
+Steps: [
+  {
+    "evidence_id": "evidence_54",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "phase": "VERIFICATION",
+    "resource_id": "account_004",
+    "state": "ABSENT",
+    "step_no": 1,
+    "system_id": "account_service"
+  },
+  {
+    "evidence_id": "evidence_56",
+    "operation": "VERIFY_RECORD_ANONYMIZED",
+    "phase": "VERIFICATION",
+    "resource_id": "analytics_901",
+    "state": "ANONYMIZED",
+    "step_no": 2,
+    "system_id": "analytics_platform"
+  }
+]
+User: {'user_id': 'user_04', 'name': 'Thandiwe Ndlovu', 'email': 'thandiwe.n@gmail.com', 'phone': '+27 71 684 5928', 'email_hash': 'f730ef60615bde7a8f5ee21138637b4e9d4094855fbb02da6afcdba9c076281f', 'updated_at': '2026-03-21T20:59:00Z'}
+
+=== case_05 ===
+Email: leila.haddad@yahoo.com
+Reported: COMPLETE at 2026-08-28T09:03:00Z
+Audit at: 2026-09-08T13:40:00Z
+Status: INCOMPLETE
+Steps: [
+  {
+    "evidence_id": "evidence_54",
+    "operation": "REPORT_REMAINING_RECORD",
+    "phase": "FINDING",
+    "resource_id": "account_005",
+    "state": "PRESENT",
+    "step_no": 1,
+    "system_id": "account_service"
+  },
+  {
+    "evidence_id": "",
+    "operation": "DELETE_RECORD",
+    "phase": "REMEDIATION",
+    "resource_id": "account_005",
+    "state": "ABSENT",
+    "step_no": 2,
+    "system_id": "account_service"
+  },
+  {
+    "evidence_id": "",
+    "operation": "VERIFY_RECORD_ABSENT",
+    "phase": "VERIFICATION",
+    "resource_id": "account_005",
+    "state": "ABSENT",
+    "step_no": 3,
+    "system_id": "account_service"
+  }
+]
+User: {'user_id': 'user_05', 'name': 'Leila Haddad', 'email': 'leila.haddad@yahoo.com', 'phone': '+212 6 48 27 15 93', 'email_hash': '62667ed065b846a842474f916da51b658edb0f9754ab2da6bf38e68779ff0d08', 'updated_at': '2026-02-14T17:33:00Z'}
+

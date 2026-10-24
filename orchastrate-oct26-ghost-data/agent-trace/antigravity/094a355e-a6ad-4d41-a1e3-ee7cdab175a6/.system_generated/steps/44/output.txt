@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+pypdf: NOT available
+fitz: NOT available
+pdfplumber: NOT available
+pypdf2: NOT available
+PIL: available
+pytesseract: NOT available
+sqlite3: available

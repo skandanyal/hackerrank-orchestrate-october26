@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Databases: 24
+Records: 29
+Logs: 26
+Images: 11
+Documents: 4

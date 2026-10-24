@@ -1,0 +1,155 @@
+Command exited with code 0.
+
+Command output:
+=== case_01 (user_01, amina.elmasri@gmail.com) cited {'evidence_54'} ===
+   evidence_54 (customer_account_failover_replica_capture) matched lines (0):
+=== case_02 (user_02, mateo.rios@outlook.com) cited {'evidence_54'} ===
+   evidence_54 (customer_account_failover_replica_capture) matched lines (0):
+=== case_03 (user_43, l.fontaine46@yahoo.com) cited {'evidence_94'} ===
+   evidence_94 (service_readback_logs) matched lines (3):
+      2026-09-26T08:57:37Z level=DEBUG service=account_service trace_id=rb-085737-009 event=profile_lookup_started resource_id
+      2026-09-26T09:40:29Z level=DEBUG service=security_service trace_id=rb-094029-017 event=audit_record_read_started resourc
+      2026-09-26T09:40:29Z level=INFO service=security_service trace_id=rb-094029-017 event=audit_record_read_completed resour
+=== case_04 (user_04, thandiwe.n@gmail.com) cited {'evidence_56', 'evidence_54'} ===
+   evidence_54 (customer_account_failover_replica_capture) matched lines (0):
+   evidence_56 (analytics_platform) matched lines (0):
+=== case_05 (user_05, leila.haddad@yahoo.com) cited {'evidence_54'} ===
+   evidence_54 (customer_account_failover_replica_capture) matched lines (1):
+      INSERT INTO "customer_profiles_failover_replica" VALUES('account_005','user_05','Leila Haddad','leila.haddad@yahoo.com',
+=== case_06 (user_06, jonas.berg@outlook.com) cited {'evidence_57'} ===
+   evidence_57 (customer_search_primary_capture) matched lines (1):
+      INSERT INTO "search_documents_primary" VALUES('search_001','Jonas Berg','jonas.berg@outlook.com','account_006','2026-09-
+=== case_07 (user_07, priya.raman@gmail.com) cited {'evidence_58'} ===
+   evidence_58 (support_platform) matched lines (0):
+=== case_08 (user_08, gabriel.costa@proton.me) cited {'evidence_59'} ===
+   evidence_59 (export_service) matched lines (1):
+      "owner_email": "gabriel.costa@proton.me",
+=== case_09 (user_61, k.appiah88@gmail.com) cited {'evidence_93'} ===
+   evidence_93 (customer_data_inventory_capture) matched lines (1):
+      INSERT INTO backup_restore_entries VALUES ('backup_4978', NULL, 'k.appiah88@gmail.com', 'archive/customer-data/backup_49
+=== case_10 (user_10, nadia.ionescu@yahoo.com) cited {'evidence_61'} ===
+   evidence_61 (support_platform) matched lines (1):
+      2026-09-17T22:00:04Z level=DEBUG service=support_replica instance=support-eu-03 pod=replica-7c9f trace_id=tr-rp-002 even
+=== case_11 (user_32, novak.tomasz@icloud.com) cited {'evidence_03'} ===
+   evidence_03 (customer_account_service) matched lines (6):
+      - 2026-10-01T12:00:00Z | account_service | account_4248 | USER_PROFILE | NOT_FOUND | novak.tomasz@icloud.com
+      - 2026-10-01T12:00:00Z | analytics_platform | analytics_2034 | ANALYTICS_PROFILE | IDENTIFIABLE | novak.tomasz@icloud.co
+      - 2026-10-01T12:00:00Z | integration_service | data_flow_9522 | DATA_FLOW | ACTIVE | novak.tomasz@icloud.com
+      - 2026-10-01T12:00:00Z | search_service | search_052 | SEARCH_INDEX_ENTRY | FOUND | novak.tomasz@icloud.com
+      - 2026-10-01T12:00:00Z | security_service | audit_record_9394 | SECURITY_AUDIT_LOG | FOUND | user_32
+=== case_12 (user_12, minjun.kim@gmail.com) cited {'evidence_01'} ===
+   evidence_01 (central_observability_export) matched lines (2):
+      2026-09-15T11:55:40Z level=DEBUG service=security_service instance=security-4 pod=security-ab9e region=us-east-2 trace_i
+      2026-09-15T11:56:49Z level=DEBUG service=account_service instance=account-2 pod=account-898d region=eu-west-1 trace_id=t
+=== case_13 (user_33, noor-khalil@proton.me) cited {'evidence_03'} ===
+   evidence_03 (customer_account_service) matched lines (4):
+      - 2026-10-01T12:00:00Z | account_service | account_9335 | USER_PROFILE | NOT_FOUND | noor-khalil@proton.me
+      - 2026-10-01T12:00:00Z | search_service | search_1308 | SEARCH_INDEX_ENTRY | FOUND | noor-khalil@proton.me
+      - 2026-10-01T12:00:00Z | security_service | audit_record_4816 | SECURITY_AUDIT_LOG | FOUND | user_33
+      - 2026-10-01T12:00:00Z | support_platform | support_4218 | SUPPORT_ATTACHMENT | FOUND | noor-khalil@proton.me
+=== case_14 (user_37, y.tanaka32@gmail.com) cited {'evidence_03'} ===
+   evidence_03 (customer_account_service) matched lines (3):
+      - 2026-10-01T12:00:00Z | account_service | account_3677 | USER_PROFILE | NOT_FOUND | y.tanaka32@gmail.com
+      - 2026-10-01T12:00:00Z | backup_service | backup_3870 | BACKUP_ARCHIVE | ACTIVE | y.tanaka32@gmail.com
+      - 2026-10-01T12:00:00Z | security_service | audit_record_987 | SECURITY_AUDIT_LOG | FOUND | user_37
+=== case_15 (user_15, lucia-torres@gmail.com) cited {'evidence_01'} ===
+   evidence_01 (central_observability_export) matched lines (3):
+      2026-09-15T11:51:20Z level=INFO service=account_service instance=account-1 pod=account-b3b8 region=ap-south-1 trace_id=t
+      2026-09-15T11:58:08Z level=DEBUG service=integration_service instance=integration-1 pod=integration-95c3 region=eu-centr
+      2026-09-15T11:59:31Z level=DEBUG service=security_service instance=security-3 pod=security-ecfc region=ap-south-1 trace_
+=== case_16 (user_53, diya.k4436@outlook.com) cited {'evidence_05'} ===
+   evidence_05 (customer_data_read_replica_capture) matched lines (5):
+      INSERT INTO "customer_data_primary" VALUES('audit_record_9528','security_service','security_audit_events','{"resource_id
+      INSERT INTO "customer_data_primary" VALUES('search_1007','search_service','customer_search_documents','{"resource_id":"s
+      INSERT INTO "customer_data_read_replica" VALUES('account_994','account_service','customer_profiles','{"resource_id":"acc
+      INSERT INTO "customer_data_read_replica" VALUES('audit_record_9528','security_service','security_audit_events','{"resour
+      INSERT INTO "customer_data_read_replica" VALUES('search_1007','search_service','customer_search_documents','{"resource_i
+=== case_17 (user_17, leonie.g9352@outlook.com) cited {'evidence_01'} ===
+   evidence_01 (central_observability_export) matched lines (3):
+      2026-09-15T11:51:09Z level=DEBUG service=account_service instance=account-6 pod=account-581a region=us-east-2 trace_id=t
+      2026-09-15T11:53:53Z level=DEBUG service=security_service instance=security-1 pod=security-0ccc region=ap-south-1 trace_
+      2026-09-15T11:54:33Z level=DEBUG service=backup_service instance=backup-1 pod=backup-de79 region=eu-west-1 trace_id=tr-8
+=== case_18 (user_50, mori.ren@gmail.com) cited {'evidence_94'} ===
+   evidence_94 (service_readback_logs) matched lines (8):
+      2026-09-26T07:59:44Z level=DEBUG service=support_platform trace_id=rb-075944-005 event=support_ticket_read_started resou
+      2026-09-26T07:59:44Z level=INFO service=support_platform trace_id=rb-075944-005 event=support_ticket_read_completed reso
+      2026-09-26T08:57:49Z level=DEBUG service=analytics_platform trace_id=rb-085749-011 event=analytics_profile_read_started 
+      2026-09-26T08:57:49Z level=INFO service=analytics_platform trace_id=rb-085749-011 event=analytics_profile_read_completed
+      2026-09-26T09:05:11Z level=DEBUG service=integration_service trace_id=rb-090511-012 event=connector_config_read_started 
+=== case_19 (user_19, e.varga90@yahoo.com) cited {'evidence_01'} ===
+   evidence_01 (central_observability_export) matched lines (5):
+      2026-09-15T11:50:57Z level=DEBUG service=support_platform instance=support-2 pod=support-70f0 region=ap-south-1 trace_id
+      2026-09-15T11:51:08Z level=WARN service=support_platform instance=support-2 pod=support-70f0 region=ap-south-1 trace_id=
+      2026-09-15T11:54:07Z level=INFO service=search_service instance=search-5 pod=search-7bcf region=eu-central-1 trace_id=tr
+      2026-09-15T11:54:24Z level=DEBUG service=security_service instance=security-6 pod=security-e1a3 region=eu-central-1 trac
+      2026-09-15T11:56:41Z level=DEBUG service=account_service instance=account-4 pod=account-2ef7 region=eu-central-1 trace_i
+=== case_20 (user_48, akosua.gyasi@gmail.com) cited {'evidence_94'} ===
+   evidence_94 (service_readback_logs) matched lines (4):
+      2026-09-26T07:57:13Z level=DEBUG service=search_service trace_id=rb-075713-004 event=index_query_started resource_id=sea
+      2026-09-26T07:57:13Z level=INFO service=search_service trace_id=rb-075713-004 event=index_query_completed resource_id=se
+      2026-09-26T09:52:54Z level=DEBUG service=integration_service trace_id=rb-095254-020 event=connector_config_read_started 
+      2026-09-26T09:52:54Z level=INFO service=integration_service trace_id=rb-095254-020 event=connector_config_read_completed
+=== case_21 (user_21, amara-okeke@proton.me) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (1):
+      "subject_reference": "user_21"
+=== case_22 (user_51, seoyeon-han@gmail.com) cited {'evidence_05'} ===
+   evidence_05 (customer_data_read_replica_capture) matched lines (6):
+      INSERT INTO "customer_data_primary" VALUES('analytics_4440','analytics_platform','customer_analytics_reports','{"resourc
+      INSERT INTO "customer_data_primary" VALUES('audit_record_3482','security_service','security_audit_events','{"resource_id
+      INSERT INTO "customer_data_primary" VALUES('search_8911','search_service','customer_search_documents','{"resource_id":"s
+      INSERT INTO "customer_data_read_replica" VALUES('analytics_4440','analytics_platform','customer_analytics_reports','{"re
+      INSERT INTO "customer_data_read_replica" VALUES('audit_record_3482','security_service','security_audit_events','{"resour
+=== case_23 (user_23, thandiwe.m6866@zoho.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (3):
+      "owner_email": "thandiwe.m6866@zoho.com",
+      "email": "thandiwe.m6866@zoho.com",
+      "query": "thandiwe.m6866@zoho.com",
+=== case_24 (user_24, keiko.nakamura@gmail.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (3):
+      "email": "keiko.nakamura@gmail.com",
+      "email": "keiko.nakamura@gmail.com",
+      "query": "keiko.nakamura@gmail.com",
+=== case_25 (user_25, s.yoon04@gmail.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (1):
+      "subject_reference": "user_25"
+=== case_26 (user_26, almeida.mariana@gmail.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (4):
+      "customer_reference": "user_26",
+      "customer_reference": "user_26",
+      "subject_reference": "user_26"
+      "customer_reference": "user_26",
+=== case_27 (user_27, ananya-nair@gmail.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (4):
+      "customer_reference": "user_27",
+      "customer_reference": "user_27",
+      "subject_reference": "user_27"
+      "customer_reference": "user_27",
+=== case_28 (user_28, smartinez6461@gmail.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (4):
+      "customer_reference": "user_28",
+      "customer_reference": "user_28",
+      "subject_reference": "user_28"
+      "customer_reference": "user_28",
+=== case_29 (user_29, noah.f438085@outlook.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (5):
+      "email": "noah.f438085@outlook.com",
+      "customer_email": "noah.f438085@outlook.com",
+      "email": "noah.f438085@outlook.com",
+      "query": "noah.f438085@outlook.com",
+      "requester_email": "noah.f438085@outlook.com",
+=== case_30 (user_30, camille.bernard86@outlook.com) cited {'evidence_92'} ===
+   evidence_92 (service_resource_export) matched lines (5):
+      "email": "camille.bernard86@outlook.com",
+      "customer_email": "camille.bernard86@outlook.com",
+      "email": "camille.bernard86@outlook.com",
+      "query": "camille.bernard86@outlook.com",
+      "requester_email": "camille.bernard86@outlook.com",
+=== case_31 (user_541, a.eze08@gmail.com) cited {'evidence_51'} ===
+   evidence_51 (records_assurance_snapshot_bundle) matched lines (2):
+      "subject_reference": "user_541",
+      "subject_reference": "user_541",
+=== case_32 (user_542, addo.kofi@gmail.com) cited {'evidence_51'} ===
+   evidence_51 (records_assurance_snapshot_bundle) matched lines (3):
+      "subject_reference": "user_542",
+      "email": "addo.kofi@gmail.com",
+      "subject_reference": "user_542",

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+{'resource_id': 'tombstone_9178', 'subject_reference': 'user_542', 'name': 'Kofi Addo', 'email': 'addo.kofi@gmail.com', 'phone': '+233 24 991 1328', 'email_hash': '4f4b9c98a05a2dad20e52313cce7809d18c3da544754dcd46d728b0173174b26', 'account_status': 'DELETED'}

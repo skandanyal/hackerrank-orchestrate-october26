@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+file_path
+records      29
+logs         26
+databases    24
+images       11
+documents     4
+Name: count, dtype: int64

@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+case_01: Expected ['evidence_54'], Top Matched [], All Matched []
+case_02: Expected ['evidence_54'], Top Matched [], All Matched []
+case_04: Expected ['evidence_54', 'evidence_56'], Top Matched [], All Matched []
+case_07: Expected ['evidence_58'], Top Matched [], All Matched []
+Evidence selection accuracy: 28 / 32

@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+total 960
+drwxr-xr-x  14 skandan-c-y skandan-c-y   4096 Oct 24 22:05 .
+drwxr-xr-x   4 skandan-c-y skandan-c-y   4096 Aug  8 11:31 ..
+drwxr-xr-x   2 skandan-c-y skandan-c-y  12288 Oct 24 22:04 annotations
+drwxr-xr-x   2 skandan-c-y skandan-c-y   4096 Oct 22 22:00 bin
+drwxr-xr-x 118 skandan-c-y skandan-c-y  12288 Oct 24 22:04 brain
+drwxr-xr-x   3 skandan-c-y skandan-c-y   4096 Oct 22 22:00 builtin
+drwxr-xr-x   3 skandan-c-y skandan-c-y   4096 Oct 24 22:04 cache
+lrwxrwxrwx   1 skandan-c-y skandan-c-y     27 Oct 24 22:04 cli.log -> log/cli-20261024_220428.log
+-rw-r--r--   1 skandan-c-y skandan-c-y 405504 Oct 22 22:22 conversation_summaries.db
+-rw-r--r--   1 skandan-c-y skandan-c-y  32768 Oct 24 22:05 conversation_summaries.db-shm
+-rw-r--r--   1 skandan-c-y skandan-c-y 135992 Oct 24 22:05 conversation_summaries.db-wal
+drwxr-xr-x   2 skandan-c-y skandan-c-y  12288 Oct 24 22:04 conversations
+drwxr-xr-x   2 skandan-c-y skandan-c-y   4096 Oct 24 22:04 crashes
+-rw-------   1 skandan-c-y skandan-c-y 207931 Oct 24 22:04 history.jsonl
+drwxr-xr-x   2 skandan-c-y skandan-c-y   4096 Oct 24 22:04 implicit
+-rw-r--r--   1 skandan-c-y skandan-c-y     36 Aug  8 11:31 installation_id
+-rw-------   1 skandan-c-y skandan-c-y  78267 Oct 24 22:05 jetbox_summaries_proto.pb
+-rw-------   1 skandan-c-y skandan-c-y    518 Aug 19 13:24 jetski_state.pbtxt
+drwxr-xr-x   2 skandan-c-y skandan-c-y   4096 Aug  8 11:31 knowledge
+-rw-rw-r--   1 skandan-c-y skandan-c-y      0 Oct 24 22:04 last_check.timestamp
+drwxr-xr-x   2 skandan-c-y skandan-c-y   4096 Oct 24 22:04 log
+drwxr-xr-x   2 skandan-c-y skandan-c-y  12288 Oct 24 22:04 presence
+-rw-------   1 skandan-c-y skandan-c-y   1638 Oct 24 22:04 settings.json
+drwxr-xr-x   2 skandan-c-y skandan-c-y   4096 Oct 22 22:00 updater

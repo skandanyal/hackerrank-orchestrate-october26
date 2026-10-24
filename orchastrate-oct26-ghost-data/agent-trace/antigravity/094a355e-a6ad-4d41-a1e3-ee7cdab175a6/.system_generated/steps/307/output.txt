@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+Initializing Deletion Audit Agent with dataset from: /home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/dataset
+Auditing cases from: /home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/dataset/sample_deletion_requests.csv
+Total cases to audit: 32
+  Processed 32/32 cases...
+Completed 32 audits in 1.33 seconds (41.55 ms/case).
+Writing 32 predictions to: /home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/sample_predictions.csv
+Audit run finished successfully.
+
+Evaluating against sample_output.csv...
+=== Ghost Data Still Exists: Evaluation Suite ===
+Loaded 32 sample ground truth cases from dataset/sample_output.csv.
+
+Baseline Self-Test Results (Ideal 100%):
+  total_cases         : 32
+  status_accuracy     : 100.00%
+  precision           : 100.00%
+  recall              : 100.00%
+  f1                  : 100.00%
+  field_accuracy      : 100.00%
+  sequence_accuracy   : 100.00%
+  matched_steps       : 193
+  expected_steps      : 193
+  predicted_steps     : 193
+
+Loaded 3 custom test cases.

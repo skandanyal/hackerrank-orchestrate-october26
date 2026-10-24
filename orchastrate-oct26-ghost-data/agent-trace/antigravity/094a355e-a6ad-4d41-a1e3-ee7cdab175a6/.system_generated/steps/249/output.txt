@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+case_01 (user_01): Expected ['evidence_54'] | Found [] | MISMATCH
+case_02 (user_02): Expected ['evidence_54'] | Found [] | MISMATCH
+case_03 (user_43): Expected ['evidence_94'] | Found ['evidence_40', 'evidence_41', 'evidence_94'] | SUPERSET
+case_04 (user_04): Expected ['evidence_54', 'evidence_56'] | Found [] | MISMATCH
+case_05 (user_05): Expected ['evidence_54'] | Found ['evidence_54'] | EXACT
+case_06 (user_06): Expected ['evidence_57'] | Found ['evidence_57'] | EXACT
+case_07 (user_07): Expected ['evidence_58'] | Found [] | MISMATCH
+case_08 (user_08): Expected ['evidence_59'] | Found ['evidence_59'] | EXACT
+case_09 (user_61): Expected ['evidence_93'] | Found ['evidence_93'] | EXACT
+case_10 (user_10): Expected ['evidence_61'] | Found ['evidence_10', 'evidence_61'] | SUPERSET
+case_11 (user_32): Expected ['evidence_03'] | Found ['evidence_03', 'evidence_30', 'evidence_31', 'evidence_73', 'evidence_74'] | SUPERSET
+case_12 (user_12): Expected ['evidence_01'] | Found ['evidence_01', 'evidence_11', 'evidence_12', 'evidence_87'] | SUPERSET
+case_13 (user_33): Expected ['evidence_03'] | Found ['evidence_03', 'evidence_31', 'evidence_72'] | SUPERSET
+case_14 (user_37): Expected ['evidence_03'] | Found ['evidence_03', 'evidence_34', 'evidence_35', 'evidence_70'] | SUPERSET
+case_15 (user_15): Expected ['evidence_01'] | Found ['evidence_01', 'evidence_15', 'evidence_86'] | SUPERSET
+case_16 (user_53): Expected ['evidence_05'] | Found ['evidence_05', 'evidence_49', 'evidence_62'] | SUPERSET
+case_17 (user_17): Expected ['evidence_01'] | Found ['evidence_01', 'evidence_16', 'evidence_17', 'evidence_67', 'evidence_84'] | SUPERSET
+case_18 (user_50): Expected ['evidence_94'] | Found ['evidence_47', 'evidence_63', 'evidence_94'] | SUPERSET
+case_19 (user_19): Expected ['evidence_01'] | Found ['evidence_01', 'evidence_82'] | SUPERSET
+case_20 (user_48): Expected ['evidence_94'] | Found ['evidence_45', 'evidence_64', 'evidence_94'] | SUPERSET
+case_21 (user_21): Expected ['evidence_92'] | Found ['evidence_20', 'evidence_21', 'evidence_81', 'evidence_92'] | SUPERSET
+case_22 (user_51): Expected ['evidence_05'] | Found ['evidence_05', 'evidence_47', 'evidence_48'] | SUPERSET
+case_23 (user_23): Expected ['evidence_92'] | Found ['evidence_22', 'evidence_79', 'evidence_92'] | SUPERSET
+case_24 (user_24): Expected ['evidence_92'] | Found ['evidence_22', 'evidence_78', 'evidence_92'] | SUPERSET
+case_25 (user_25): Expected ['evidence_92'] | Found ['evidence_24', 'evidence_92'] | SUPERSET
+case_26 (user_26): Expected ['evidence_92'] | Found ['evidence_24', 'evidence_25', 'evidence_92'] | SUPERSET
+case_27 (user_27): Expected ['evidence_92'] | Found ['evidence_25', 'evidence_26', 'evidence_77', 'evidence_92'] | SUPERSET
+case_28 (user_28): Expected ['evidence_92'] | Found ['evidence_26', 'evidence_76', 'evidence_92'] | SUPERSET
+case_29 (user_29): Expected ['evidence_92'] | Found ['evidence_75', 'evidence_76', 'evidence_92'] | SUPERSET
+case_30 (user_30): Expected ['evidence_92'] | Found ['evidence_29', 'evidence_92'] | SUPERSET
+case_31 (user_541): Expected ['evidence_51'] | Found ['evidence_51'] | EXACT
+case_32 (user_542): Expected ['evidence_51'] | Found ['evidence_51'] | EXACT

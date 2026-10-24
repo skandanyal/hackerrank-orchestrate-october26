@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+{'audience_cohort': 'home_lifestyle', 'customer_reference': None, 'email': None, 'email_hash': None, 'observed_at': '2026-09-15T09:58:44Z', 'phone': None, 'resource_id': 'analytics_1895'}
+{'audience_cohort': 'returning_customer', 'customer_reference': None, 'email': 'camille.bernard86@outlook.com', 'email_hash': None, 'observed_at': '2026-09-15T10:36:41Z', 'phone': None, 'resource_id': 'analytics_3697'}
+{'audience_cohort': 'home_lifestyle', 'customer_reference': None, 'email': None, 'email_hash': None, 'observed_at': '2026-09-15T11:29:16Z', 'phone': None, 'resource_id': 'analytics_4566'}
+{'audience_cohort': 'general_shopper', 'customer_reference': None, 'email': None, 'email_hash': None, 'observed_at': '2026-09-15T10:07:38Z', 'phone': None, 'resource_id': 'analytics_4574'}
+{'audience_cohort': 'general_shopper', 'customer_reference': None, 'email': 'noah.f438085@outlook.com', 'email_hash': None, 'observed_at': '2026-09-15T11:38:32Z', 'phone': None, 'resource_id': 'analytics_5208'}
+{'audience_cohort': 'returning_customer', 'customer_reference': None, 'email': None, 'email_hash': None, 'observed_at': '2026-09-15T09:34:42Z', 'phone': None, 'resource_id': 'analytics_5335'}
+{'audience_cohort': 'general_shopper', 'customer_reference': None, 'email': None, 'email_hash': None, 'observed_at': '2026-09-15T11:44:55Z', 'phone': None, 'resource_id': 'analytics_6077'}

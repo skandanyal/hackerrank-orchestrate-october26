@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+=== Sample Predictions Evaluation Results ===
+  total_cases         : 32
+  status_accuracy     :  71.88%
+  precision           :  61.70%
+  recall              :  45.08%
+  f1                  :  52.10%
+  field_accuracy      :  98.85%
+  sequence_accuracy   :  28.12%
+  matched_steps       : 87
+  expected_steps      : 193
+  predicted_steps     : 141

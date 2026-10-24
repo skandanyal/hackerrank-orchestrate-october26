@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+=== case_12 ===
+Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (5): ['REPORT_REMAINING_RECORD(analytics_platform:analytics_9914)', 'DELETE_RECORD(analytics_platform:analytics_9914)', 'VERIFY_RECORD_ABSENT(account_service:account_9797)', 'VERIFY_RECORD_ABSENT(analytics_platform:analytics_9914)', 'VERIFY_RECORD_PRESENT(security_service:audit_record_2945)']
+   Pred steps (2): ['VERIFY_RECORD_ABSENT(account_service:account_9797)', 'VERIFY_RECORD_PRESENT(security_service:audit_record_2945)']
+=== case_16 ===
+Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (7): ['REPORT_REMAINING_RECORD(account_service:account_994)', 'REPORT_REMAINING_RECORD(search_service:search_1007)', 'DELETE_RECORD(account_service:account_994)', 'DELETE_RECORD(search_service:search_1007)', 'VERIFY_RECORD_ABSENT(account_service:account_994)', 'VERIFY_RECORD_ABSENT(search_service:search_1007)', 'VERIFY_RECORD_PRESENT(security_service:audit_record_9528)']
+   Pred steps (2): ['VERIFY_RECORD_ABSENT(account_service:account_5482)', 'VERIFY_RECORD_PRESENT(security_service:audit_record_4828)']
+=== case_22 ===
+Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (8): ['REPORT_REMAINING_RECORD(search_service:search_8911)', 'REPORT_EXPOSED_PII(analytics_platform:analytics_4440)', 'DELETE_RECORD(search_service:search_8911)', 'ANONYMIZE_RECORD(analytics_platform:analytics_4440)', 'VERIFY_RECORD_ABSENT(account_service:account_4990)', 'VERIFY_RECORD_ABSENT(search_service:search_8911)', 'VERIFY_RECORD_PRESENT(security_service:audit_record_3482)', 'VERIFY_RECORD_ANONYMIZED(analytics_platform:analytics_4440)']
+   Pred steps (1): ['VERIFY_RECORD_ABSENT(account_service:account_008)']

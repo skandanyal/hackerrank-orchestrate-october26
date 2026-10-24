@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+Indexed 850 users and 957 emails.
+case_01 (user_01): Expected resources: ['account_001'], User emails: {'amina.elmasri@gmail.com'}
+case_02 (user_02): Expected resources: ['account_002'], User emails: {'mateo.rios@outlook.com'}
+case_03 (user_43): Expected resources: ['account_7566', 'audit_record_2016', 'analytics_9406'], User emails: {'l.fontaine46@yahoo.com'}
+case_04 (user_04): Expected resources: ['account_004', 'analytics_901'], User emails: {'thandiwe.n@gmail.com'}
+case_05 (user_05): Expected resources: ['account_005', 'account_005', 'account_005'], User emails: {'leila.haddad@yahoo.com'}

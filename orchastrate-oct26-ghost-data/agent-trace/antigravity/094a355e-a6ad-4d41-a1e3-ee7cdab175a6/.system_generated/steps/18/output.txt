@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+total 8
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 .
+drwxrwxr-x 3 skandan-c-y skandan-c-y 4096 Oct 24 22:03 ..
+-rw-rw-r-- 1 skandan-c-y skandan-c-y    0 Oct 24 22:03 main.py

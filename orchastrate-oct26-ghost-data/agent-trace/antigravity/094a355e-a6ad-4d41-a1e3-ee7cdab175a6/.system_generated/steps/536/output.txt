@@ -1,0 +1,23 @@
+Command exited with code 0.
+
+Command output:
+  adding: README.md (deflated 58%)
+  adding: code/ (stored 0%)
+  adding: code/engines/ (stored 0%)
+  adding: code/engines/audit_engine.py (deflated 83%)
+  adding: code/engines/intent_engine.py (deflated 52%)
+  adding: code/engines/policy_engine.py (deflated 57%)
+  adding: code/engines/evidence_engine.py (deflated 84%)
+  adding: code/engines/__init__.py (deflated 55%)
+  adding: code/engines/identity_engine.py (deflated 72%)
+  adding: code/evaluation/ (stored 0%)
+  adding: code/evaluation/evaluation_report.md (deflated 60%)
+  adding: code/evaluation/main.py (deflated 69%)
+  adding: code/evaluation/custom_test_suite.py (deflated 79%)
+  adding: code/evaluation/usage_report.md (deflated 53%)
+  adding: code/main.py (deflated 61%)
+  adding: evaluation/ (stored 0%)
+  adding: evaluation/evaluation_report.md (deflated 60%)
+  adding: evaluation/main.py (deflated 69%)
+  adding: evaluation/custom_test_suite.py (deflated 79%)
+  adding: evaluation/usage_report.md (deflated 53%)

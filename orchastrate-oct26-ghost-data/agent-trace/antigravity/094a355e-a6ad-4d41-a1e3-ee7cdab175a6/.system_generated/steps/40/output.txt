@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+dataset/evidence/logs/resource_lookup_trace_20260509_104353.log
+dataset/evidence/logs/application_trace_ap_northeast_20260730.log
+dataset/evidence/logs/structured_service_events_ca_central_20260419.log
+dataset/evidence/logs/structured_service_events_eu_west_20260918.log
+dataset/evidence/logs/search_index_diagnostic_20260906.log
+dataset/evidence/logs/resource_lookup_trace_20260926_103856.log
+dataset/evidence/logs/resource_lookup_trace_20260529_074313.log
+dataset/evidence/logs/application_trace_eu_north_20260302.log
+dataset/evidence/logs/resource_lookup_trace_20260218_083911.log
+dataset/evidence/logs/resource_lookup_trace_20260310_061801.log
+dataset/evidence/logs/service_events_sa_east_20260516.log
+dataset/evidence/logs/resource_lookup_trace_20260623_053726.log
+dataset/evidence/logs/resource_lookup_trace_20260728_054417.log
+dataset/evidence/logs/cloud_runtime_export_af_south_20260930.log
+dataset/evidence/logs/service_events_ap_south_20260915.log
+dataset/evidence/logs/resource_lookup_trace_20260822_103910.log
+dataset/evidence/logs/support_replica.log
+dataset/evidence/logs/resource_lookup_trace_20260713_093359.log
+dataset/evidence/logs/syslog_archive_ap_southeast_20260325.log
+dataset/evidence/logs/notification_delivery_20260315.log
+dataset/evidence/logs/operations_stream_me_central_20260203.log
+dataset/evidence/logs/syslog_archive_us_east_20260824.log
+dataset/evidence/logs/resource_lookup_trace_20260911_074253.log
+dataset/evidence/logs/operations_stream_eu_central_20260705.log
+dataset/evidence/logs/cloud_runtime_export_us_west_20260608.log
+dataset/evidence/logs/resource_lookup_trace_20260414_054007.log
+dataset/evidence/databases/customer_data_inventory_20260504.sql
+dataset/evidence/databases/customer_data_inventory_20260723.sql
+dataset/evidence/databases/customer_data_inventory_20260817.sql
+dataset/evidence/databases/customer_data_regional_replicas_20260330.sql

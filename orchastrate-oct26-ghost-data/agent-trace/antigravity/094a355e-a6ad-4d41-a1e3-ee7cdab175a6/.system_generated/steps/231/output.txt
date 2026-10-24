@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+INSERT INTO "search_documents_primary" VALUES('search_001','Jonas Berg','jonas.berg@outlook.com','account_006','2026-09-09T22:12:00Z');
+INSERT INTO "search_documents_primary" VALUES('search_8814','Jonas Berglund','jonas.berglund@outlook.com','account_8814','2026-09-09T22:13:00Z');

@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+I1024 22:04:28.977834      88 model_configs.go:346] Auth mode is unspecified, skipping fetchAvailableModels and returning empty response
+I1024 22:04:34.574275     418 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels Trace: 0x45ae9583b73c9a17
+I1024 22:04:34.855768     202 model_config_manager.go:340] Propagating selected model override to backend: label="Gemini 3.8 Flash (Medium)"
+I1024 22:04:40.719505     540 model_config_manager.go:340] Propagating selected model override to backend: label="Gemini 3.8 Flash (Medium)"
+I1024 22:04:40.720384     604 model_config_manager.go:340] Propagating selected model override to backend: label="Gemini 3.8 Flash (Medium)"

@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+account_service / customer_profiles (0 records), first:
+   empty
+identity_service / deleted_customer_references (2 records), first:
+   {'resource_id': 'tombstone_440', 'subject_reference': 'user_541', 'name': None, 'email': None, 'phone': None, 'email_hash': None, 'account_status': 'DELETED'}
+security_service / security_audit_events (2 records), first:
+   {'resource_id': 'audit_record_6909', 'subject_reference': 'user_541', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000001afd'}

@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+user_identities.csv user_id ['user_01', 'user_02', 'user_03', 'user_04', 'user_05']
+user_audit_log.csv audit_id ['audit_01', 'audit_02', 'audit_03', 'audit_04', 'audit_05']
+system_activity.csv activity_id ['activity_01', 'activity_02', 'activity_03', 'activity_04', 'activity_05']
+deletion_rules.csv rule_id ['rule_01', 'rule_02', 'rule_03', 'rule_04', 'rule_05']
+evidence_files.csv file_id ['evidence_01', 'evidence_02', 'evidence_03', 'evidence_04', 'evidence_05']

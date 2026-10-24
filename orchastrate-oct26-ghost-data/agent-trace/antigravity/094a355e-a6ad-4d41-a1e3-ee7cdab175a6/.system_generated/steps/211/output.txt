@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+{'activity_id': 'activity_3482', 'event_time': '2026-08-28T09:11:01Z', 'event_type': 'DELETE_RECORD', 'source_system': 'deletion_worker', 'target_system': 'account_service', 'resource_id': 'account_005', 'reported_result': 'SUCCESS', 'details': 'Deletion worker reported the requested operation as completed. Target resource: account_005.'}
+{'activity_id': 'activity_3483', 'event_time': '2026-08-28T09:11:09Z', 'event_type': 'SYNC_RECORD', 'source_system': 'account_service', 'target_system': 'account_failover_replica', 'resource_id': 'account_005', 'reported_result': 'SUCCESS', 'details': 'Replication worker reported its final checkpoint. Target resource: account_005.'}

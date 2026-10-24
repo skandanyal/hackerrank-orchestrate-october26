@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Total log lines: 2211 read in 1.4ms

@@ -1,0 +1,7 @@
+Command exited with code 1.
+
+Command output:
+Service exports keys/len: 8
+Traceback (most recent call last):
+  File "<string>", line 6, in <module>
+KeyError: slice(None, 3, None)

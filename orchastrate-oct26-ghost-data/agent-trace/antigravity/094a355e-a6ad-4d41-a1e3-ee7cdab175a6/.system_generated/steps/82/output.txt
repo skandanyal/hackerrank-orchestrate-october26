@@ -1,0 +1,15 @@
+Command exited with code 0.
+
+Command output:
+Collecting pypdf
+  Downloading pypdf-6.21.2-py3-none-any.whl.metadata (7.6 kB)
+Collecting pytesseract
+  Downloading pytesseract-0.3.13-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: packaging>=21.3 in /home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages (from pytesseract) (26.3)
+Requirement already satisfied: Pillow>=8.0.0 in /home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages (from pytesseract) (12.3.0)
+Downloading pypdf-6.21.2-py3-none-any.whl (407 kB)
+Downloading pytesseract-0.3.13-py3-none-any.whl (14 kB)
+Would install pypdf-6.21.2 pytesseract-0.3.13
+
+[notice] A new release of pip is available: 24.3.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip

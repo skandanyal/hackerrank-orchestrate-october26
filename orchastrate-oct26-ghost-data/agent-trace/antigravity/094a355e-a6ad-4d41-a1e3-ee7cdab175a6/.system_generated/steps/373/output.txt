@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+dataset/sample_output.csv:26:case_25,COMPLETE,"[{""step_no"":1,""phase"":""VERIFICATION"",""system_id"":""account_service"",""resource_id"":""account_3136"",""operation"":""VERIFY_RECORD_ABSENT"",""state"":""ABSENT"",""evidence_id"":""evidence_92""},{""step_no"":2,""phase"":""VERIFICATION"",""system_id"":""security_service"",""resource_id"":""audit_record_451"",""operation"":""VERIFY_RECORD_PRESENT"",""state"":""PRESENT"",""evidence_id"":""evidence_92""},{""step_no"":3,""phase"":""VERIFICATION"",""system_id"":""analytics_platform"",""resource_id"":""analytics_1895"",""operation"":""VERIFY_RECORD_ANONYMIZED"",""state"":""ANONYMIZED"",""evidence_id"":""evidence_92""}]"
+dataset/system_activity.csv:3598:activity_3597,2026-09-02T10:48:27Z,DELETE_RECORD,deletion_worker,account_service,account_3136,FAILED,Deletion worker submitted primary profile account_3136 to account_service.
+dataset/evidence/records/service_resource_export_20260915_114455.json:10:          "resource_id": "account_3136",

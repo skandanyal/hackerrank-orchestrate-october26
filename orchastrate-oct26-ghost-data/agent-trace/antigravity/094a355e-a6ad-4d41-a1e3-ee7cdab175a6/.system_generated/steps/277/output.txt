@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Loaded manifest with 94 files in 5.1ms

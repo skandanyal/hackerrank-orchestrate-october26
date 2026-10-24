@@ -1,0 +1,55 @@
+Command exited with code 1.
+
+Command output:
+Traceback (most recent call last):
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/arrays/arrow/array.py", line 943, in _cmp_method
+    result = pc_func(self._pa_array, self._box_pa(other))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pyarrow/compute.py", line 254, in wrapper
+    return func.call(args, None, memory_pool)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pyarrow/_compute.pyx", line 405, in pyarrow._compute.Function.call
+  File "pyarrow/error.pxi", line 155, in pyarrow.lib.pyarrow_internal_check_status
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowNotImplementedError: Function 'greater_equal' has no kernel matching input types (large_string, timestamp[us, tz=UTC])
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/arrays/arrow/array.py", line 950, in _cmp_method
+    result[valid] = op(np_array[valid], other)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/tslibs/timestamps.pyx", line 474, in pandas._libs.tslibs.timestamps._Timestamp.__richcmp__
+TypeError: '<=' not supported between instances of 'Timestamp' and 'str'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<string>", line 11, in <module>
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/ops/common.py", line 85, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/arraylike.py", line 62, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/series.py", line 6735, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/ops/array_ops.py", line 341, in comparison_op
+    res_values = op(lvalues, rvalues)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/ops/common.py", line 85, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/arraylike.py", line 62, in __ge__
+    return self._cmp_method(other, operator.ge)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/arrays/string_arrow.py", line 591, in _cmp_method
+    result = super()._cmp_method(other, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/arrays/arrow/array.py", line 952, in _cmp_method
+    result = ops.invalid_comparison(self, other, op)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/skandan-c-y/.envs/dl312/lib/python3.12/site-packages/pandas/core/ops/invalid.py", line 55, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=str and Timestamp

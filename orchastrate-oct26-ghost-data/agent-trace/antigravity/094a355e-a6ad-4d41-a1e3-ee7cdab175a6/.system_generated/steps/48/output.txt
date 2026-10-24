@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+dataset/evidence/documents/:
+total 276
+drwxrwxr-x 2 skandan-c-y skandan-c-y  4096 Oct 24 22:03 .
+drwxrwxr-x 7 skandan-c-y skandan-c-y  4096 Oct 24 22:03 ..
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 65704 Oct 24 22:03 account_history_report_20260718.pdf
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 66039 Oct 24 22:03 delivery_correction_attachment.pdf
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 65857 Oct 24 22:03 legal_retention_register_20260529.pdf
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 64847 Oct 24 22:03 security_retention_extract.pdf
+
+dataset/evidence/images/:
+total 1488
+drwxrwxr-x 2 skandan-c-y skandan-c-y   4096 Oct 24 22:03 .
+drwxrwxr-x 7 skandan-c-y skandan-c-y   4096 Oct 24 22:03 ..
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 124989 Oct 24 22:03 account_admin_console_20260926.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 129362 Oct 24 22:03 analytics_profile_view_20260713.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 155587 Oct 24 22:03 backup_restore_console_20260429.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 130271 Oct 24 22:03 connector_management_console_20260807.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 134597 Oct 24 22:03 customer_export_console_20260618.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 136696 Oct 24 22:03 deleted_account_reference_20260310.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 129711 Oct 24 22:03 marketing_profile_console.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 154193 Oct 24 22:03 object_storage_browser_20260213.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 121101 Oct 24 22:03 search_index_inspector_20260901.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 147699 Oct 24 22:03 security_audit_explorer_20260905.png
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 135008 Oct 24 22:03 support_ticket_console_20260524.png

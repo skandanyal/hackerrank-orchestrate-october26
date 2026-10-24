@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Parsed 1822 records across structured evidence files in 0.04s

@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+dataset/sample_output.csv:2:case_01,COMPLETE,"[{""evidence_id"":""evidence_54"",""operation"":""VERIFY_RECORD_ABSENT"",""phase"":""VERIFICATION"",""resource_id"":""account_001"",""state"":""ABSENT"",""step_no"":1,""system_id"":""account_service""}]"
+dataset/system_activity.csv:3343:activity_3342,2026-08-20T16:41:43Z,DELETE_RECORD,deletion_worker,account_service,account_001,SUCCESS,Deletion worker reported the requested operation as completed. Target resource: account_001.

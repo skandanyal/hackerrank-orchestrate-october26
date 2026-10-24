@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 821K Oct 24 23:47 agent-trace.zip
+-rw-rw-r-- 1 skandan-c-y skandan-c-y  32K Oct 24 23:47 code.zip
+-rw-r--r-- 1 skandan-c-y skandan-c-y  11K Oct 24 23:41 log.txt
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 451K Oct 24 23:46 output.csv

@@ -1,0 +1,48 @@
+Command exited with code 0.
+
+Command output:
+Evidence: ('evidence_01',)
+   case_12 (user_12, minjun.kim@gmail.com): INCOMPLETE
+   case_15 (user_15, lucia-torres@gmail.com): INCOMPLETE
+   case_17 (user_17, leonie.g9352@outlook.com): INCOMPLETE
+   case_19 (user_19, e.varga90@yahoo.com): INCOMPLETE
+Evidence: ('evidence_03',)
+   case_11 (user_32, novak.tomasz@icloud.com): INCOMPLETE
+   case_13 (user_33, noor-khalil@proton.me): INCOMPLETE
+   case_14 (user_37, y.tanaka32@gmail.com): INCOMPLETE
+Evidence: ('evidence_05',)
+   case_16 (user_53, diya.k4436@outlook.com): INCOMPLETE
+   case_22 (user_51, seoyeon-han@gmail.com): INCOMPLETE
+Evidence: ('evidence_51',)
+   case_31 (user_541, a.eze08@gmail.com): COMPLETE
+   case_32 (user_542, addo.kofi@gmail.com): INCOMPLETE
+Evidence: ('evidence_54', 'evidence_56')
+   case_04 (user_04, thandiwe.n@gmail.com): COMPLETE
+Evidence: ('evidence_54',)
+   case_01 (user_01, amina.elmasri@gmail.com): COMPLETE
+   case_02 (user_02, mateo.rios@outlook.com): COMPLETE
+   case_05 (user_05, leila.haddad@yahoo.com): INCOMPLETE
+Evidence: ('evidence_57',)
+   case_06 (user_06, jonas.berg@outlook.com): INCOMPLETE
+Evidence: ('evidence_58',)
+   case_07 (user_07, priya.raman@gmail.com): INCOMPLETE
+Evidence: ('evidence_59',)
+   case_08 (user_08, gabriel.costa@proton.me): INCOMPLETE
+Evidence: ('evidence_61',)
+   case_10 (user_10, nadia.ionescu@yahoo.com): INCOMPLETE
+Evidence: ('evidence_92',)
+   case_21 (user_21, amara-okeke@proton.me): COMPLETE
+   case_23 (user_23, thandiwe.m6866@zoho.com): INCOMPLETE
+   case_24 (user_24, keiko.nakamura@gmail.com): INCOMPLETE
+   case_25 (user_25, s.yoon04@gmail.com): COMPLETE
+   case_26 (user_26, almeida.mariana@gmail.com): COMPLETE
+   case_27 (user_27, ananya-nair@gmail.com): COMPLETE
+   case_28 (user_28, smartinez6461@gmail.com): COMPLETE
+   case_29 (user_29, noah.f438085@outlook.com): INCOMPLETE
+   case_30 (user_30, camille.bernard86@outlook.com): INCOMPLETE
+Evidence: ('evidence_93',)
+   case_09 (user_61, k.appiah88@gmail.com): INCOMPLETE
+Evidence: ('evidence_94',)
+   case_03 (user_43, l.fontaine46@yahoo.com): COMPLETE
+   case_18 (user_50, mori.ren@gmail.com): INCOMPLETE
+   case_20 (user_48, akosua.gyasi@gmail.com): INCOMPLETE

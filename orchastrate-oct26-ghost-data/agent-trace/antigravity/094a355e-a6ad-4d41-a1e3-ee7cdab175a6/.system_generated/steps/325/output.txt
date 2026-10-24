@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+account_994 account_service customer_profiles {'resource_id': 'account_994', 'customer_reference': 'user_53', 'full_name': 'Diya Kapoor', 'email': 'diya.k4436@outlook.com', 'phone': '+91 96023 32879', 'account_status': 'ACTIVE', 'signup_channel': 'referral'}
+audit_record_9528 security_service security_audit_events {'resource_id': 'audit_record_9528', 'subject_reference': 'user_53', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000002538'}
+search_1007 search_service customer_search_documents {'resource_id': 'search_1007', 'index_name': 'customer_directory_v3', 'document': {'display_name': 'Diya Kapoor', 'email': 'diya.k4436@outlook.com', 'customer_reference': 'user_53'}}

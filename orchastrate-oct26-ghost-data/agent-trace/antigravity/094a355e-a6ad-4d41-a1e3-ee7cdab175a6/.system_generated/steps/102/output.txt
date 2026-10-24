@@ -1,0 +1,40 @@
+Command exited with code 0.
+
+Command output:
+event_type
+DELETE_RECORD             890
+UPDATE_RECORD             672
+SYNC_RECORD               447
+INDEX_RECORD              400
+SEND_EMAIL                368
+REFRESH_CACHE             284
+RETAIN_RECORD             206
+ANONYMIZE_RECORD          204
+REDACT_RECORD             173
+CREATE_EXPORT             155
+CHECK_DATA_FLOW            89
+DISABLE_DATA_FLOW          36
+BLOCK_RESTORE              36
+CHECK_RESTORE_ACCESS       28
+LINK_RESOURCE_IDENTITY     12
+CLASSIFY_REQUEST           10
+RESTORE_BACKUP              1
+Name: count, dtype: int64
+reported_result
+SUCCESS    2914
+FAILED      721
+PARTIAL     376
+Name: count, dtype: int64
+   activity_id  ...                                            details
+0  activity_01  ...  Customer search-index refresh processed search...
+1  activity_02  ...  Customer search-index refresh processed search...
+2  activity_03  ...  Customer search-index refresh processed search...
+3  activity_04  ...  Support-case index update processed support_4185.
+4  activity_05  ...  Profile preference update processed account_2689.
+5  activity_06  ...  Security-event archival processed audit_record...
+6  activity_07  ...  Support-case index update processed support_1854.
+7  activity_08  ...  Transactional email delivery processed email_d...
+8  activity_09  ...  Transactional email delivery processed email_d...
+9  activity_10  ...  Profile preference update processed account_1910.
+
+[10 rows x 8 columns]

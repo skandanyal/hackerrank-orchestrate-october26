@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+origin
+central_observability_export                 12
+records_assurance_snapshot_bundle            12
+service_resource_export                      11
+customer_data_inventory_capture              11
+service_readback_logs                        11
+customer_data_read_replica_capture            5
+support_platform                              3
+customer_data_regional_replicas_capture       3
+analytics_platform                            2
+export_service                                2
+security_service                              2
+customer_data_reporting_replica_capture       2
+customer_account_service                      1
+account_admin_portal                          1
+search_index_service                          1
+search_index_admin                            1
+integration_management_service                1
+integration_admin                             1
+account_history_service                       1
+legal_retention_service                       1
+backup_service                                1
+customer_export_service                       1
+downstream_delivery_service                   1
+identity_service                              1
+object_storage                                1
+security_audit_service                        1
+customer_data_failover_replica_capture        1
+customer_account_failover_replica_capture     1
+customer_search_primary_capture               1
+marketing_platform                            1
+Name: count, dtype: int64

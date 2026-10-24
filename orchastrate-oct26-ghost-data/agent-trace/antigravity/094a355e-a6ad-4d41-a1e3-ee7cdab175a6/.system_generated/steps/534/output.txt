@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Row count: 518
+Status distribution: {'INCOMPLETE': 267, 'COMPLETE': 241, 'NOT_APPLICABLE': 10}
+SUCCESS: All 518 output rows strictly conform to all AGENTS.md contract rules!

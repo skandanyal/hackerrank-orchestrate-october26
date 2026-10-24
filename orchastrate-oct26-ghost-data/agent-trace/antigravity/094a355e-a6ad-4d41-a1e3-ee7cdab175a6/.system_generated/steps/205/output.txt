@@ -1,0 +1,17 @@
+Command exited with code 0.
+
+Command output:
+=== case_01 (amina.elmasri@gmail.com) ===
+Target resources from sample_output: {'account_001'}
+  2026-08-20T16:41:43Z | DELETE_RECORD | account_service | account_001
+=== case_02 (mateo.rios@outlook.com) ===
+Target resources from sample_output: {'account_002'}
+=== case_03 (l.fontaine46@yahoo.com) ===
+Target resources from sample_output: {'analytics_9406', 'account_7566', 'audit_record_2016'}
+  2026-09-15T10:07:35Z | DELETE_RECORD | account_service | account_7566
+  2026-09-15T10:31:16Z | ANONYMIZE_RECORD | analytics_platform | analytics_9406
+=== case_04 (thandiwe.n@gmail.com) ===
+Target resources from sample_output: {'account_004', 'analytics_901'}
+  2026-08-27T08:47:41Z | ANONYMIZE_RECORD | analytics_platform | analytics_901
+=== case_05 (leila.haddad@yahoo.com) ===
+Target resources from sample_output: {'account_005'}

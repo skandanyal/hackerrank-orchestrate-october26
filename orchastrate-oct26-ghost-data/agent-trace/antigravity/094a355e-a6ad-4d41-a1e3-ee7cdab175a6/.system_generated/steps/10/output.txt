@@ -1,0 +1,33 @@
+Command exited with code 0.
+
+Command output:
+I1024 22:04:56.005901     882 manager.go:1477] Reloading system slash commands and skills
+I1024 22:04:56.005920     882 manager.go:1434] Reloading system slash commands
+I1024 22:04:56.006153     837 server.go:3237] GetConversationDetail: found conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 (active=true)
+I1024 22:04:56.006989     837 server.go:1234] Starting conversation update stream for 094a355e-a6ad-4d41-a1e3-ee7cdab175a6
+I1024 22:04:56.008953     837 conversation_manager.go:851] Forwarding user message to conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 (items=1, media=0)
+I1024 22:04:56.008983     837 server.go:1819] Sending user message to conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 (items=1, media=0)
+I1024 22:04:56.013524     883 manager.go:584] Ignoring IDLE update at 0 steps; it predates the sent message (0 steps at send)
+I1024 22:04:56.021206     882 manager.go:1442] Slash commands unchanged, skipping update
+I1024 22:04:56.020460     837 latency_breakdown.go:170] SEND_USER_CASCADE_MESSAGE_LATENCY latency breakdown: map[active_user_state_latency_ms:0 blocking:false cascade_id:094a355e-a6ad-4d41-a1e3-ee7cdab175a6 cascade_send_latency_ms:4 hydrate_slash_commands_latency_ms:0 load_trajectory_latency_ms:0 media_count:0 media_summaries_latency_ms:0 message_origin:AGENT_MESSAGE_ORIGIN_UNSPECIFIED resolve_agent_config_latency_ms:5 save_media_latency_ms:0 saved_media_count:0 status:OK total_latency_ms:10 trajectory_id:7cef3ed7-6aa3-4752-8797-13fa23268498]
+I1024 22:04:56.054383     886 monitor_config_manager_external.go:53] externalMonitorConfigManager: initialized with embedded config (3 monitors)
+I1024 22:04:56.056074     886 monitoring.go:401] [Sonar] Resolved active tags: [policy_guardian sonar_skip_tags] (detected surface: "")
+I1024 22:04:56.057404     886 monitoring.go:401] [Sonar] Resolved active tags: [policy_guardian sonar_skip_tags] (detected surface: "")
+I1024 22:04:58.059426     668 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x3cd0eeb8eaae6eb6 ResponseID: Md7capDmKIPEjuMPmPWp2AU
+I1024 22:05:02.343739    1227 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x457a405864d01aa3 ResponseID: Md7caqCrGeTn4-EP6fSPyQY
+I1024 22:05:04.272488     883 tool_confirmation_manager.go:226] Surfacing tool confirmation: "RunCommand" at step 2
+I1024 22:05:06.592675     220 input_loop.go:706] Responding to tool confirmation: convID=094a355e-a6ad-4d41-a1e3-ee7cdab175a6, stepIdx=2, approved=true, sandboxOverride=false, persistGrants=[]
+I1024 22:05:06.592789    1377 server.go:2610] Tool confirmation for conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 step 2 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I1024 22:05:10.812713    1430 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0xfadf8c2854e7a3d ResponseID: PN7catOdKKyLz7sP06WOKQ
+I1024 22:05:17.097935    1519 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x2b6ec8ee0887aa93 ResponseID: QN7catm9JZ3QqfkPhqKeyAU
+I1024 22:05:17.243440     883 tool_confirmation_manager.go:226] Surfacing tool confirmation: "RunCommand" at step 6
+I1024 22:05:26.522771     220 input_loop.go:706] Responding to tool confirmation: convID=094a355e-a6ad-4d41-a1e3-ee7cdab175a6, stepIdx=6, approved=true, sandboxOverride=false, persistGrants=[]
+I1024 22:05:26.616491    1625 server.go:2610] Tool confirmation for conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 step 6 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I1024 22:05:36.458226    1719 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x58814308d4be655b ResponseID: Ud7caq35A_3y4-EPpuKzqQY
+I1024 22:05:36.571231     883 tool_confirmation_manager.go:226] Surfacing tool confirmation: "RunCommand" at step 8
+I1024 22:05:41.040519     220 input_loop.go:706] Responding to tool confirmation: convID=094a355e-a6ad-4d41-a1e3-ee7cdab175a6, stepIdx=8, approved=true, sandboxOverride=false, persistGrants=[]
+I1024 22:05:41.043563    1869 server.go:2610] Tool confirmation for conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 step 8 (type=*gemini_coder_go_proto.Step_Generic approved=true)
+I1024 22:05:45.359266    1932 http_helpers.go:349] URL: https://daily-cloudcode-pa.googleapis.com/v1internal:streamGenerateContent?alt=sse Trace: 0x20661fa4dd389855 ResponseID: X97catbcBfSljuMPkJDuwQY
+I1024 22:05:45.387586     883 tool_confirmation_manager.go:226] Surfacing tool confirmation: "RunCommand" at step 10
+I1024 22:05:47.068768     220 input_loop.go:706] Responding to tool confirmation: convID=094a355e-a6ad-4d41-a1e3-ee7cdab175a6, stepIdx=10, approved=true, sandboxOverride=false, persistGrants=[]
+I1024 22:05:47.068886    1400 server.go:2610] Tool confirmation for conversation 094a355e-a6ad-4d41-a1e3-ee7cdab175a6 step 10 (type=*gemini_coder_go_proto.Step_Generic approved=true)

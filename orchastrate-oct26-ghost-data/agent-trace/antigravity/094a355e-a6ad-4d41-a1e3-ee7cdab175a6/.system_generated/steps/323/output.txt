@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+analytics_4440 analytics_platform customer_analytics_reports {'resource_id': 'analytics_4440', 'user_id': 'user_51', 'email': 'seoyeon-han@gmail.com', 'phone': '+82 10 8943 9310', 'email_hash': 'bbd5522cc42afd8c0bacf9b557d5e0e057c24e7b113936bd98c541e92583a0e7', 'reporting_window': 'last_90_days', 'metrics': {'sessions_30d': 14, 'products_viewed_30d': 11, 'orders_completed_90d': 0, 'revenue_90d_usd': 0.0}, 'recent_activity': [{'event': 'product_viewed', 'product': 'Noise-cancelling headphones'}]}
+audit_record_3482 security_service security_audit_events {'resource_id': 'audit_record_3482', 'subject_reference': 'user_51', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000000d9a'}
+audit_record_9528 security_service security_audit_events {'resource_id': 'audit_record_9528', 'subject_reference': 'user_53', 'event_name': 'account_deletion_reviewed', 'actor_type': 'automated_privacy_workflow', 'integrity_seal': 'sha256:0000000000000000000000000000000000000000000000000000000000002538'}
+search_1007 search_service customer_search_documents {'resource_id': 'search_1007', 'index_name': 'customer_directory_v3', 'document': {'display_name': 'Diya Kapoor', 'email': 'diya.k4436@outlook.com', 'customer_reference': 'user_53'}}
+search_8911 search_service customer_search_documents {'resource_id': 'search_8911', 'index_name': 'customer_directory_v3', 'document': {'display_name': 'Seo-yeon Han', 'email': 'seoyeon-han@gmail.com', 'customer_reference': 'user_51'}}

@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+file_id,file_path,origin,captured_at
+evidence_01,evidence/logs/service_events_ap_south_20260915.log,central_observability_export,2026-09-15T11:59:39Z
+evidence_02,evidence/records/customer_data_snapshot_bundle_20260917.json,records_assurance_snapshot_bundle,2026-09-17T12:00:00Z
+evidence_03,evidence/records/customer_account_handover_20261001.txt,customer_account_service,2026-10-01T12:00:00Z
+evidence_04,evidence/images/account_admin_console_20260926.png,account_admin_portal,2026-09-26T11:00:00Z

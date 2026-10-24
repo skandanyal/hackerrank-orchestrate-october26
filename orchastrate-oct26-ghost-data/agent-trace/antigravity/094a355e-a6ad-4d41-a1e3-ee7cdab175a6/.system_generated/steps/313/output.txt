@@ -1,0 +1,30 @@
+Command exited with code 0.
+
+Command output:
+case_03: Expected COMPLETE, Predicted INCOMPLETE
+   GT steps (3): ['VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_ANONYMIZED(analytics_platform)']
+   Pred steps (5): ['REPORT_REMAINING_RECORD(account_service)', 'DELETE_RECORD(account_service)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)']
+case_10: Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (4): ['REPORT_REMAINING_RECORD(support_platform)', 'DELETE_RECORD(support_platform)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_ABSENT(support_platform)']
+   Pred steps (1): ['VERIFY_RECORD_ABSENT(account_service)']
+case_12: Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (5): ['REPORT_REMAINING_RECORD(analytics_platform)', 'DELETE_RECORD(analytics_platform)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_ABSENT(analytics_platform)', 'VERIFY_RECORD_PRESENT(security_service)']
+   Pred steps (2): ['VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)']
+case_15: Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (5): ['REPORT_ACTIVE_DATA_FLOW(integration_service)', 'DISABLE_DATA_FLOW(integration_service)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_DATA_FLOW_DISABLED(integration_service)']
+   Pred steps (1): ['VERIFY_RECORD_ABSENT(account_service)']
+case_16: Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (7): ['REPORT_REMAINING_RECORD(account_service)', 'REPORT_REMAINING_RECORD(search_service)', 'DELETE_RECORD(account_service)', 'DELETE_RECORD(search_service)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_ABSENT(search_service)', 'VERIFY_RECORD_PRESENT(security_service)']
+   Pred steps (2): ['VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)']
+case_17: Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (5): ['REPORT_RESTORE_RISK(backup_service)', 'BLOCK_RESTORE(backup_service)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RESTORE_BLOCKED(backup_service)']
+   Pred steps (2): ['VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)']
+case_21: Expected COMPLETE, Predicted INCOMPLETE
+   GT steps (3): ['VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_ANONYMIZED(analytics_platform)']
+   Pred steps (11): ['REPORT_REMAINING_RECORD(support_platform)', 'DELETE_RECORD(support_platform)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_ABSENT(support_platform)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_DATA_FLOW_DISABLED(integration_service)', 'VERIFY_RESTORE_BLOCKED(backup_service)']
+case_22: Expected INCOMPLETE, Predicted COMPLETE
+   GT steps (8): ['REPORT_REMAINING_RECORD(search_service)', 'REPORT_EXPOSED_PII(analytics_platform)', 'DELETE_RECORD(search_service)', 'ANONYMIZE_RECORD(analytics_platform)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_ABSENT(search_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_ANONYMIZED(analytics_platform)']
+   Pred steps (1): ['VERIFY_RECORD_ABSENT(account_service)']
+case_27: Expected COMPLETE, Predicted INCOMPLETE
+   GT steps (6): ['VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_REDACTED(support_platform)', 'VERIFY_RECORD_ANONYMIZED(analytics_platform)', 'VERIFY_DATA_FLOW_DISABLED(integration_service)', 'VERIFY_RESTORE_BLOCKED(backup_service)']
+   Pred steps (12): ['REPORT_REMAINING_RECORD(account_service)', 'DELETE_RECORD(account_service)', 'VERIFY_RECORD_ABSENT(account_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)', 'VERIFY_RECORD_PRESENT(security_service)']

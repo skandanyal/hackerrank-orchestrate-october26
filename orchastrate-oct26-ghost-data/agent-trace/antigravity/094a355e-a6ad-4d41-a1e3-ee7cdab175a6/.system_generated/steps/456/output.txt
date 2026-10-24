@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+user_identities.csv    count= 850 is_lex=False is_num=True
+user_audit_log.csv     count= 306 is_lex=False is_num=True
+system_activity.csv    count=4011 is_lex=False is_num=True
+deletion_rules.csv     count=  15 is_lex=True is_num=True
+evidence_files.csv     count=  94 is_lex=True is_num=True

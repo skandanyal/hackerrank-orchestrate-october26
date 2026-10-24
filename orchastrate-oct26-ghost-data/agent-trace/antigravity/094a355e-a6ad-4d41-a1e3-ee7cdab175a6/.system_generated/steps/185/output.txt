@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+      user_id  ...            updated_at
+109  user_110  ...  2026-02-27T19:46:59Z
+330  user_331  ...  2026-01-04T04:38:03Z
+512  user_513  ...  2023-12-31T14:51:00Z
+551  user_552  ...  2024-08-18T11:24:00Z
+733  user_734  ...  2025-11-07T09:58:00Z
+
+[5 rows x 6 columns]
+      audit_id   user_id  ...                old_value                 new_value
+120  audit_121   user_10  ...  nadia.ionescu@yahoo.com  nadia.petrescu@yahoo.com
+143  audit_144  user_331  ...  a.ionescu1879@yahoo.com     a.ionescu18@yahoo.com
+
+[2 rows x 6 columns]

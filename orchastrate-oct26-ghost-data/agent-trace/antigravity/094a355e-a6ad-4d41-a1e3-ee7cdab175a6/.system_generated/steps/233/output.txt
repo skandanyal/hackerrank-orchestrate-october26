@@ -1,0 +1,14 @@
+Command exited with code 0.
+
+Command output:
+Priya Raman
+
+Detail
+
+priya.raman@gmail.com
+
+Detail
+
++91 98765 73142
+
+Detail

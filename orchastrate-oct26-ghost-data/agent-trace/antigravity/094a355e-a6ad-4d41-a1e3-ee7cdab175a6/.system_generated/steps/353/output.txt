@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Found user_53: account_994 account_service ACTIVE
+Found user_53: audit_record_9528 security_service None
+Found user_53: search_1007 search_service None

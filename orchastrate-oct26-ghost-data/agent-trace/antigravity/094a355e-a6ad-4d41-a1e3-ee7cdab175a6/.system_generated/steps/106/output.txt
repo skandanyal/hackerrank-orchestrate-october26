@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Missing resources: {'audit_record_1707', 'audit_record_9265', 'audit_record_987', 'audit_record_1596', 'audit_record_3737', 'account_004', 'audit_record_6645', 'audit_record_5416', 'audit_record_5569', 'audit_record_2945', 'audit_record_7068', 'audit_record_6793', 'audit_record_1797', 'audit_record_4128', 'audit_record_3830', 'support_001', 'audit_record_4816', 'audit_record_2016', 'audit_record_3954', 'audit_record_6909', 'audit_record_451', 'audit_record_4902', 'audit_record_9528', 'audit_record_7095', 'audit_record_9394', 'audit_record_3482'}
+Checking audit_record_1707 in evidence...
+Found audit_record_1707 in dataset/evidence/records/customer_data_snapshot_bundle_20260917.json

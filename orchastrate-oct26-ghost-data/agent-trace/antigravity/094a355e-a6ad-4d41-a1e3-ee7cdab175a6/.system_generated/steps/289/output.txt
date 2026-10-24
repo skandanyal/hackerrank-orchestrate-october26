@@ -1,0 +1,29 @@
+Command exited with code 0.
+
+Command output:
+case_01: resource account_001 NOT found in cited evidence {'evidence_54'}
+case_02: resource account_002 NOT found in cited evidence {'evidence_54'}
+case_04: resource account_004 NOT found in cited evidence {'evidence_56', 'evidence_54'}
+case_07: resource support_001 NOT found in cited evidence {'evidence_58'}
+case_07: resource support_001 NOT found in cited evidence {'evidence_58'}
+case_07: resource account_007 NOT found in cited evidence {'evidence_58'}
+case_07: resource support_001 NOT found in cited evidence {'evidence_58'}
+case_08: resource account_008 NOT found in cited evidence {'evidence_59'}
+case_09: resource account_3960 NOT found in cited evidence {'evidence_93'}
+case_09: resource audit_record_4902 NOT found in cited evidence {'evidence_93'}
+case_10: resource account_010 NOT found in cited evidence {'evidence_61'}
+case_18: resource account_5521 NOT found in cited evidence {'evidence_94'}
+case_18: resource audit_record_6645 NOT found in cited evidence {'evidence_94'}
+case_20: resource account_5037 NOT found in cited evidence {'evidence_94'}
+case_20: resource audit_record_5569 NOT found in cited evidence {'evidence_94'}
+case_22: resource account_4990 NOT found in cited evidence {'evidence_05'}
+case_23: resource account_410 NOT found in cited evidence {'evidence_92'}
+case_23: resource audit_record_4128 NOT found in cited evidence {'evidence_92'}
+case_24: resource audit_record_7095 NOT found in cited evidence {'evidence_92'}
+case_29: resource account_7012 NOT found in cited evidence {'evidence_92'}
+case_29: resource audit_record_3954 NOT found in cited evidence {'evidence_92'}
+case_30: resource account_4163 NOT found in cited evidence {'evidence_92'}
+case_30: resource audit_record_1707 NOT found in cited evidence {'evidence_92'}
+case_31: resource account_4857 NOT found in cited evidence {'evidence_51'}
+case_32: resource account_8858 NOT found in cited evidence {'evidence_51'}
+Total step resources found in cited evidence: 168 / 193

@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+Evidence IDs cited in sample_output.csv: ['evidence_01', 'evidence_03', 'evidence_05', 'evidence_51', 'evidence_54', 'evidence_56', 'evidence_57', 'evidence_58', 'evidence_59', 'evidence_61', 'evidence_92', 'evidence_93', 'evidence_94']
+
+Manifest for cited evidence:
+        file_id  ...                                     origin
+0   evidence_01  ...               central_observability_export
+2   evidence_03  ...                   customer_account_service
+4   evidence_05  ...         customer_data_read_replica_capture
+50  evidence_51  ...          records_assurance_snapshot_bundle
+53  evidence_54  ...  customer_account_failover_replica_capture
+55  evidence_56  ...                         analytics_platform
+56  evidence_57  ...            customer_search_primary_capture
+57  evidence_58  ...                           support_platform
+58  evidence_59  ...                             export_service
+60  evidence_61  ...                           support_platform
+91  evidence_92  ...                    service_resource_export
+92  evidence_93  ...            customer_data_inventory_capture
+93  evidence_94  ...                      service_readback_logs
+
+[13 rows x 3 columns]

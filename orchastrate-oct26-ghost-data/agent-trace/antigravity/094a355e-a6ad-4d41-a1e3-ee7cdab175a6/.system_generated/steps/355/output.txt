@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+Found user_51: analytics_4440 analytics_platform
+Found user_51: audit_record_3482 security_service
+Found user_51: search_8911 search_service

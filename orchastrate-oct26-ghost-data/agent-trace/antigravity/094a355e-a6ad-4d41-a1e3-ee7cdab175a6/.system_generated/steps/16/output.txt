@@ -1,0 +1,24 @@
+Command exited with code 0.
+
+Command output:
+code/:
+total 12
+drwxrwxr-x 3 skandan-c-y skandan-c-y 4096 Oct 24 22:03 .
+drwxrwxr-x 6 skandan-c-y skandan-c-y 4096 Oct 24 22:03 ..
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 evaluation
+-rw-rw-r-- 1 skandan-c-y skandan-c-y    0 Oct 24 22:03 main.py
+
+dataset/:
+total 1048
+drwxrwxr-x 3 skandan-c-y skandan-c-y   4096 Oct 24 22:03 .
+drwxrwxr-x 6 skandan-c-y skandan-c-y   4096 Oct 24 22:03 ..
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 163664 Oct 24 22:03 deletion_requests.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y   1039 Oct 24 22:03 deletion_rules.csv
+drwxrwxr-x 7 skandan-c-y skandan-c-y   4096 Oct 24 22:03 evidence
+-rw-rw-r-- 1 skandan-c-y skandan-c-y  11089 Oct 24 22:03 evidence_files.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y     35 Oct 24 22:03 output.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y   9010 Oct 24 22:03 sample_deletion_requests.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y  38648 Oct 24 22:03 sample_output.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 657360 Oct 24 22:03 system_activity.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y  36709 Oct 24 22:03 user_audit_log.csv
+-rw-rw-r-- 1 skandan-c-y skandan-c-y 126411 Oct 24 22:03 user_identities.csv

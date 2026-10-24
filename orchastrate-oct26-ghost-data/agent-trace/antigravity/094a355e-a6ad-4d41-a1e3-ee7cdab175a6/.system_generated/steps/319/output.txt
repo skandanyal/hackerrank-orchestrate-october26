@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+Found 2 traces.
+Trace for nadia.ionescu: tr-rp-002
+   2026-09-17T22:00:04Z level=DEBUG service=support_replica instance=support-eu-03 pod=replica-7c9f trace_id=tr-rp-002 event=contact_query_started lookup_key=nadia.ionescu@yahoo.com source=legacy_contact_index
+   2026-09-17T22:00:05Z level=INFO service=support_replica instance=support-eu-03 pod=replica-7c9f trace_id=tr-rp-002 event=contact_query_completed resource_id=support_002 rows=1 latency_ms=23
+   2026-09-17T22:00:06Z level=WARN service=support_replica instance=support-eu-03 pod=replica-7c9f trace_id=tr-rp-002 event=deletion_marker_check resource_id=support_002 marker_found=false last_write=2026-09-07T10:01:00Z

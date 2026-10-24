@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+account_service ['profile_lookups']
+analytics_platform ['profiles']
+backup_service ['restore_entries']
+export_service ['exports']
+integration_service ['connectors']
+search_service ['index_queries']
+security_service ['audit_records']
+support_platform ['tickets']

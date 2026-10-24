@@ -1,0 +1,114 @@
+Command exited with code 0.
+
+Command output:
+=== case_31 (a.eze08@gmail.com) ===
+  2026-09-04T13:51:37Z | UPDATE_RECORD | search_service | support_5762 | Support-case index update processed support_5762.
+  2026-09-04T18:34:56Z | SYNC_RECORD | analytics_platform | analytics_3164 | Customer profile synchronization processed analytics_3164.
+  2026-09-04T19:20:52Z | REFRESH_CACHE | cache_service | cache_1297 | Profile cache refresh processed cache_1297.
+  2026-09-04T19:41:33Z | RETAIN_RECORD | archive_service | audit_record_7788 | Security-event archival processed audit_record_7788.
+  2026-09-04T20:36:01Z | INDEX_RECORD | search_service | search_4543 | Customer search-index refresh processed search_4543.
+  2026-09-05T06:39:10Z | UPDATE_RECORD | search_service | support_1717 | Support-case index update processed support_1717.
+  2026-09-05T08:12:42Z | INDEX_RECORD | search_service | search_3712 | Customer search-index refresh processed search_3712.
+  2026-09-05T10:01:20Z | UPDATE_RECORD | search_service | support_7289 | Support-case index update processed support_7289.
+  2026-09-05T10:50:10Z | DELETE_RECORD | account_service | account_294 | Deletion worker submitted primary profile account_294 to account_service.
+  2026-09-05T10:52:20Z | DELETE_RECORD | account_service | account_8832 | Deletion worker submitted primary profile account_8832 to account_service.
+  2026-09-05T11:00:31Z | CLASSIFY_REQUEST | privacy_case_management | account_5605 | Privacy intake classified request for account_5605 as non-deletion; no destructive action was authorized.
+  2026-09-05T11:01:52Z | DELETE_RECORD | account_service | account_7015 | Deletion worker submitted primary profile account_7015 to account_service.
+  2026-09-05T11:01:53Z | DELETE_RECORD | account_service | account_6440 | Deletion worker submitted primary profile account_6440 to account_service.
+  2026-09-05T11:10:55Z | DELETE_RECORD | account_service | account_410 | Deletion worker submitted primary profile account_410 to account_service.
+  2026-09-05T11:12:36Z | DELETE_RECORD | account_service | account_9155 | Deletion worker submitted primary profile account_9155 to account_service.
+  2026-09-05T11:31:17Z | REDACT_RECORD | identity_service | tombstone_8774 | Policy action completed for tombstone_8774.
+  2026-09-05T11:31:34Z | ANONYMIZE_RECORD | analytics_platform | analytics_5335 | Policy action completed for analytics_5335.
+  2026-09-05T12:15:47Z | UPDATE_RECORD | account_service | account_8007 | Profile preference update processed account_8007.
+  2026-09-05T12:38:47Z | DELETE_RECORD | export_service | export_7364 | Deletion worker received the final result for export_7364 from export_service.
+  2026-09-05T12:42:12Z | REDACT_RECORD | identity_service | tombstone_8095 | Deletion worker received the final result for tombstone_8095 from identity_service.
+  2026-09-05T12:54:02Z | REDACT_RECORD | support_platform | support_1034 | Deletion worker received the final result for support_1034 from support_platform.
+  2026-09-05T12:56:44Z | REDACT_RECORD | identity_service | tombstone_3745 | Deletion worker received the final result for tombstone_3745 from identity_service.
+  2026-09-05T12:57:17Z | DELETE_RECORD | search_service | search_898 | Deletion worker received the final result for search_898 from search_service.
+  2026-09-05T13:13:31Z | DELETE_RECORD | search_service | search_2912 | Deletion worker received the final result for search_2912 from search_service.
+  2026-09-05T14:22:48Z | SYNC_RECORD | analytics_platform | analytics_4492 | Customer profile synchronization processed analytics_4492.
+  2026-09-05T17:48:04Z | UPDATE_RECORD | search_service | support_9429 | Support-case index update processed support_9429.
+  2026-09-05T18:31:44Z | SEND_EMAIL | email_delivery_service | email_delivery_1867 | Transactional email delivery processed email_delivery_1867.
+  2026-09-05T19:56:49Z | SEND_EMAIL | email_delivery_service | email_delivery_4720 | Transactional email delivery processed email_delivery_4720.
+  2026-09-05T21:26:06Z | UPDATE_RECORD | account_service | account_3299 | Profile preference update processed account_3299.
+  2026-09-06T05:02:50Z | INDEX_RECORD | search_service | search_7829 | Customer search-index refresh processed search_7829.
+  2026-09-06T05:33:18Z | REFRESH_CACHE | cache_service | cache_1210 | Profile cache refresh processed cache_1210.
+  2026-09-06T08:23:09Z | UPDATE_RECORD | account_service | account_3650 | Profile preference update processed account_3650.
+  2026-09-06T09:50:28Z | UPDATE_RECORD | account_service | account_9782 | Profile preference update processed account_9782.
+  2026-09-06T10:45:58Z | DELETE_RECORD | account_service | account_4857 | Deletion worker submitted primary profile account_4857 to account_service.
+  2026-09-06T10:51:45Z | DELETE_RECORD | account_service | account_2381 | Deletion worker submitted primary profile account_2381 to account_service.
+  2026-09-06T11:00:18Z | DELETE_RECORD | account_service | account_1810 | Deletion worker submitted primary profile account_1810 to account_service.
+  2026-09-06T11:05:15Z | DELETE_RECORD | account_service | account_8858 | Deletion worker submitted primary profile account_8858 to account_service.
+  2026-09-06T11:11:02Z | DELETE_RECORD | account_service | account_3677 | Deletion worker submitted primary profile account_3677 to account_service.
+  2026-09-06T11:31:39Z | REDACT_RECORD | identity_service | tombstone_440 | Policy action completed for tombstone_440.
+  2026-09-06T11:32:37Z | UPDATE_RECORD | account_service | account_6348 | Profile preference update processed account_6348.
+  2026-09-06T11:56:30Z | SEND_EMAIL | email_delivery_service | email_delivery_8297 | Transactional email delivery processed email_delivery_8297.
+  2026-09-05T07:07:01Z | LINK_RESOURCE_IDENTITY | security_service | audit_record_003 | Data catalog linked audit_record_003 (audit_record_003) to oliver-bennett@gmail.com and user_03.
+=== case_32 (addo.kofi@gmail.com) ===
+  2026-09-03T12:10:28Z | INDEX_RECORD | search_service | search_9338 | Customer search-index refresh processed search_9338.
+  2026-09-03T14:00:34Z | UPDATE_RECORD | account_service | account_5592 | Profile preference update processed account_5592.
+  2026-09-03T21:04:36Z | UPDATE_RECORD | account_service | account_3393 | Profile preference update processed account_3393.
+  2026-09-03T21:37:27Z | SEND_EMAIL | email_delivery_service | email_delivery_5496 | Transactional email delivery processed email_delivery_5496.
+  2026-09-03T22:02:28Z | REFRESH_CACHE | cache_service | cache_6415 | Profile cache refresh processed cache_6415.
+  2026-09-03T22:23:04Z | SEND_EMAIL | email_delivery_service | email_delivery_8424 | Transactional email delivery processed email_delivery_8424.
+  2026-09-03T23:01:32Z | SEND_EMAIL | email_delivery_service | email_delivery_3997 | Transactional email delivery processed email_delivery_3997.
+  2026-09-04T01:39:29Z | UPDATE_RECORD | account_service | account_7954 | Profile preference update processed account_7954.
+  2026-09-04T03:03:50Z | UPDATE_RECORD | account_service | account_8185 | Profile preference update processed account_8185.
+  2026-09-04T07:03:52Z | DELETE_RECORD | account_service | account_4156 | Deletion worker submitted primary profile account_4156 to account_service.
+  2026-09-04T07:31:33Z | ANONYMIZE_RECORD | analytics_platform | analytics_2176 | Policy action completed for analytics_2176.
+  2026-09-04T07:38:03Z | REDACT_RECORD | support_platform | support_9166 | Policy action completed for support_9166.
+  2026-09-04T07:45:32Z | DISABLE_DATA_FLOW | integration_service | data_flow_9666 | Policy action completed for data_flow_9666.
+  2026-09-04T07:52:02Z | BLOCK_RESTORE | backup_service | backup_317 | Policy action completed for backup_317.
+  2026-09-04T07:53:05Z | DELETE_RECORD | account_service | account_1602 | Deletion worker submitted primary profile account_1602 to account_service.
+  2026-09-04T08:00:34Z | UPDATE_RECORD | account_service | account_4816 | Profile preference update processed account_4816.
+  2026-09-04T08:04:19Z | DELETE_RECORD | account_service | account_5488 | Deletion worker submitted primary profile account_5488 to account_service.
+  2026-09-04T08:13:21Z | DELETE_RECORD | account_service | account_9079 | Deletion worker submitted primary profile account_9079 to account_service.
+  2026-09-04T09:08:59Z | CREATE_EXPORT | object_store | export_374 | Scheduled account export processed export_374.
+  2026-09-04T09:37:10Z | RETAIN_RECORD | archive_service | audit_record_3103 | Security-event archival processed audit_record_3103.
+  2026-09-04T09:42:11Z | ANONYMIZE_RECORD | analytics_platform | analytics_9246 | Deletion worker received the final result for analytics_9246 from analytics_platform.
+  2026-09-04T09:49:56Z | REDACT_RECORD | support_platform | support_4249 | Deletion worker received the final result for support_4249 from support_platform.
+  2026-09-04T09:56:13Z | SYNC_RECORD | account_replication_cluster | account_9079 | Replication worker reported its final checkpoint for account_9079.
+  2026-09-04T10:01:40Z | DELETE_RECORD | search_service | search_689 | Deletion worker received the final result for search_689 from search_service.
+  2026-09-04T10:49:18Z | CLASSIFY_REQUEST | privacy_case_management | account_7452 | Privacy intake classified request for account_7452 as non-deletion; no destructive action was authorized.
+  2026-09-04T13:51:37Z | UPDATE_RECORD | search_service | support_5762 | Support-case index update processed support_5762.
+  2026-09-04T18:34:56Z | SYNC_RECORD | analytics_platform | analytics_3164 | Customer profile synchronization processed analytics_3164.
+  2026-09-04T19:20:52Z | REFRESH_CACHE | cache_service | cache_1297 | Profile cache refresh processed cache_1297.
+  2026-09-04T19:41:33Z | RETAIN_RECORD | archive_service | audit_record_7788 | Security-event archival processed audit_record_7788.
+  2026-09-04T20:36:01Z | INDEX_RECORD | search_service | search_4543 | Customer search-index refresh processed search_4543.
+  2026-09-05T06:39:10Z | UPDATE_RECORD | search_service | support_1717 | Support-case index update processed support_1717.
+  2026-09-05T08:12:42Z | INDEX_RECORD | search_service | search_3712 | Customer search-index refresh processed search_3712.
+  2026-09-05T10:01:20Z | UPDATE_RECORD | search_service | support_7289 | Support-case index update processed support_7289.
+  2026-09-05T10:50:10Z | DELETE_RECORD | account_service | account_294 | Deletion worker submitted primary profile account_294 to account_service.
+  2026-09-05T10:52:20Z | DELETE_RECORD | account_service | account_8832 | Deletion worker submitted primary profile account_8832 to account_service.
+  2026-09-05T11:00:31Z | CLASSIFY_REQUEST | privacy_case_management | account_5605 | Privacy intake classified request for account_5605 as non-deletion; no destructive action was authorized.
+  2026-09-05T11:01:52Z | DELETE_RECORD | account_service | account_7015 | Deletion worker submitted primary profile account_7015 to account_service.
+  2026-09-05T11:01:53Z | DELETE_RECORD | account_service | account_6440 | Deletion worker submitted primary profile account_6440 to account_service.
+  2026-09-05T11:10:55Z | DELETE_RECORD | account_service | account_410 | Deletion worker submitted primary profile account_410 to account_service.
+  2026-09-05T11:12:36Z | DELETE_RECORD | account_service | account_9155 | Deletion worker submitted primary profile account_9155 to account_service.
+  2026-09-05T11:31:17Z | REDACT_RECORD | identity_service | tombstone_8774 | Policy action completed for tombstone_8774.
+  2026-09-05T11:31:34Z | ANONYMIZE_RECORD | analytics_platform | analytics_5335 | Policy action completed for analytics_5335.
+  2026-09-05T12:15:47Z | UPDATE_RECORD | account_service | account_8007 | Profile preference update processed account_8007.
+  2026-09-05T12:38:47Z | DELETE_RECORD | export_service | export_7364 | Deletion worker received the final result for export_7364 from export_service.
+  2026-09-05T12:42:12Z | REDACT_RECORD | identity_service | tombstone_8095 | Deletion worker received the final result for tombstone_8095 from identity_service.
+  2026-09-05T12:54:02Z | REDACT_RECORD | support_platform | support_1034 | Deletion worker received the final result for support_1034 from support_platform.
+  2026-09-05T12:56:44Z | REDACT_RECORD | identity_service | tombstone_3745 | Deletion worker received the final result for tombstone_3745 from identity_service.
+  2026-09-05T12:57:17Z | DELETE_RECORD | search_service | search_898 | Deletion worker received the final result for search_898 from search_service.
+  2026-09-05T13:13:31Z | DELETE_RECORD | search_service | search_2912 | Deletion worker received the final result for search_2912 from search_service.
+  2026-09-05T14:22:48Z | SYNC_RECORD | analytics_platform | analytics_4492 | Customer profile synchronization processed analytics_4492.
+  2026-09-05T17:48:04Z | UPDATE_RECORD | search_service | support_9429 | Support-case index update processed support_9429.
+  2026-09-05T18:31:44Z | SEND_EMAIL | email_delivery_service | email_delivery_1867 | Transactional email delivery processed email_delivery_1867.
+  2026-09-05T19:56:49Z | SEND_EMAIL | email_delivery_service | email_delivery_4720 | Transactional email delivery processed email_delivery_4720.
+  2026-09-05T21:26:06Z | UPDATE_RECORD | account_service | account_3299 | Profile preference update processed account_3299.
+  2026-09-06T05:02:50Z | INDEX_RECORD | search_service | search_7829 | Customer search-index refresh processed search_7829.
+  2026-09-06T05:33:18Z | REFRESH_CACHE | cache_service | cache_1210 | Profile cache refresh processed cache_1210.
+  2026-09-06T08:23:09Z | UPDATE_RECORD | account_service | account_3650 | Profile preference update processed account_3650.
+  2026-09-06T09:50:28Z | UPDATE_RECORD | account_service | account_9782 | Profile preference update processed account_9782.
+  2026-09-06T10:45:58Z | DELETE_RECORD | account_service | account_4857 | Deletion worker submitted primary profile account_4857 to account_service.
+  2026-09-06T10:51:45Z | DELETE_RECORD | account_service | account_2381 | Deletion worker submitted primary profile account_2381 to account_service.
+  2026-09-06T11:00:18Z | DELETE_RECORD | account_service | account_1810 | Deletion worker submitted primary profile account_1810 to account_service.
+  2026-09-06T11:05:15Z | DELETE_RECORD | account_service | account_8858 | Deletion worker submitted primary profile account_8858 to account_service.
+  2026-09-06T11:11:02Z | DELETE_RECORD | account_service | account_3677 | Deletion worker submitted primary profile account_3677 to account_service.
+  2026-09-06T11:31:39Z | REDACT_RECORD | identity_service | tombstone_440 | Policy action completed for tombstone_440.
+  2026-09-06T11:32:37Z | UPDATE_RECORD | account_service | account_6348 | Profile preference update processed account_6348.
+  2026-09-06T11:56:30Z | SEND_EMAIL | email_delivery_service | email_delivery_8297 | Transactional email delivery processed email_delivery_8297.
+  2026-09-05T07:07:01Z | LINK_RESOURCE_IDENTITY | security_service | audit_record_003 | Data catalog linked audit_record_003 (audit_record_003) to oliver-bennett@gmail.com and user_03.

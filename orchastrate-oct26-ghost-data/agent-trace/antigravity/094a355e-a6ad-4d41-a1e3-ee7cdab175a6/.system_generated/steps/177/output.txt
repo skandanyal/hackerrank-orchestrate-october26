@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+  "model": "Gemini 3.8 Flash (High)",

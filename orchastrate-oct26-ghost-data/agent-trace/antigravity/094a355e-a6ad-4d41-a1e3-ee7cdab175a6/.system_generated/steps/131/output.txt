@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+Collecting pypdf
+  Using cached pypdf-6.21.2-py3-none-any.whl.metadata (7.6 kB)
+Using cached pypdf-6.21.2-py3-none-any.whl (407 kB)
+Installing collected packages: pypdf
+Successfully installed pypdf-6.21.2
+
+[notice] A new release of pip is available: 24.3.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip

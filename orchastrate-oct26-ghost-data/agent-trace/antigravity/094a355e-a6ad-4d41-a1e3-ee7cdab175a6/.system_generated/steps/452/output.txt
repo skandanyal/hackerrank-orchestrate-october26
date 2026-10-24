@@ -1,0 +1,26 @@
+Command exited with code 0.
+
+Command output:
+problem_statement.md-| `deletion_status` | `COMPLETE`, `INCOMPLETE`, or `NOT_APPLICABLE` |
+problem_statement.md-| `steps_json` | Ordered JSON array of findings, remediation actions, and verification checks |
+problem_statement.md-
+problem_statement.md:The final file must contain exactly 518 data rows, sorted by `case_id`.
+problem_statement.md-
+problem_statement.md-Each object in `steps_json` must contain:
+problem_statement.md-
+--
+README.md-
+README.md-Produce exactly one row per request. `deletion_status` is `COMPLETE`, `INCOMPLETE`, or `NOT_APPLICABLE`. `steps_json` is an ordered JSON array containing findings, remediation actions, and verification checks. Use an empty array (`[]`) for `NOT_APPLICABLE`. Evidence references may be a `file_id`, `activity_id`, or `audit_id`. Determine the resource state at `audit_at` from the available evidence; reported workflow statuses and operation results are claims. Use `dataset/sample_output.csv` as the format reference.
+README.md-
+README.md:The final file must contain 518 data rows sorted by `case_id` (plus the header row). The grader parses `steps_json` as JSON, so object-key order and whitespace do not matter; array order does. Order findings, remediation, and verification in that phase order. Within a phase, follow the operation order in the problem statement, then sort by `system_id` and `resource_id`.
+README.md-
+README.md----
+README.md-
+--
+README.md-
+README.md-Before submitting, confirm that:
+README.md-
+README.md:- `output.csv` has the exact header `case_id,deletion_status,steps_json` and contains all 518 data rows sorted by `case_id`;
+README.md-- every `steps_json` value is a valid JSON array with consecutive step numbers starting at `1`;
+README.md-- findings cite valid evidence IDs, and `COMPLETE` verification steps cite evidence proving the current state;
+README.md-- proposed remediation and future verification steps use an empty `evidence_id` (`""`);

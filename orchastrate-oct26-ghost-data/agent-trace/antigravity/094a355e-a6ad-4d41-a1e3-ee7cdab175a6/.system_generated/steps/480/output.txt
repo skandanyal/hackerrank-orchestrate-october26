@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+total 28
+drwxr-xr-x   5 skandan-c-y skandan-c-y  4096 Oct 24 22:04 .
+drwxr-xr-x 118 skandan-c-y skandan-c-y 12288 Oct 24 22:04 ..
+drwxr-xr-x   5 skandan-c-y skandan-c-y  4096 Oct 24 22:45 .system_generated
+drwxr-xr-x   2 skandan-c-y skandan-c-y  4096 Oct 24 22:04 .user_uploaded
+drwxr-xr-x   2 skandan-c-y skandan-c-y  4096 Oct 24 22:04 scratch

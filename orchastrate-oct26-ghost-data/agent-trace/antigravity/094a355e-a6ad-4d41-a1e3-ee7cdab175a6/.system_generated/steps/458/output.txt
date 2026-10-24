@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Does num_sorted match deletion_requests exactly?: True

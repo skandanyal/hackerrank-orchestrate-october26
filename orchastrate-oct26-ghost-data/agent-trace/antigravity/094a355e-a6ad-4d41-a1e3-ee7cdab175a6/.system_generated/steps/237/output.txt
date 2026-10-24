@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+  "source": "user_export_store",
+  "collection": "customer_export_jobs",
+  "records": [
+    {
+      "resource_id": "export_001",
+      "owner_email": "gabriel.costa@proton.me",

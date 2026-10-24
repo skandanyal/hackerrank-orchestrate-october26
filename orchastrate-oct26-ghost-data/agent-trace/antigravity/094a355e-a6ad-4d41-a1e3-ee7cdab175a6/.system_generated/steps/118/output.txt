@@ -1,0 +1,35 @@
+Command exited with code 0.
+
+Command output:
+case_01 | Status: COMPLETE | Reported: COMPLETE | Steps: 1 | EIDs: {'evidence_54'} | Systems: {'account_service'}
+case_02 | Status: COMPLETE | Reported: PARTIALLY_COMPLETE | Steps: 1 | EIDs: {'evidence_54'} | Systems: {'account_service'}
+case_03 | Status: COMPLETE | Reported: COMPLETE | Steps: 3 | EIDs: {'evidence_94'} | Systems: {'analytics_platform', 'account_service', 'security_service'}
+case_04 | Status: COMPLETE | Reported: COMPLETE | Steps: 2 | EIDs: {'evidence_56', 'evidence_54'} | Systems: {'analytics_platform', 'account_service'}
+case_05 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 3 | EIDs: {'evidence_54'} | Systems: {'account_service'}
+case_06 | Status: INCOMPLETE | Reported: PARTIALLY_COMPLETE | Steps: 4 | EIDs: {'evidence_57'} | Systems: {'search_service', 'account_service'}
+case_07 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 4 | EIDs: {'evidence_58'} | Systems: {'account_service', 'support_platform'}
+case_08 | Status: INCOMPLETE | Reported: PARTIALLY_COMPLETE | Steps: 4 | EIDs: {'evidence_59'} | Systems: {'account_service', 'export_service'}
+case_09 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 5 | EIDs: {'evidence_93'} | Systems: {'account_service', 'backup_service', 'security_service'}
+case_10 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 4 | EIDs: {'evidence_61'} | Systems: {'account_service', 'support_platform'}
+case_11 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 14 | EIDs: {'evidence_03'} | Systems: {'account_service', 'security_service', 'search_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_12 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 5 | EIDs: {'evidence_01'} | Systems: {'analytics_platform', 'account_service', 'security_service'}
+case_13 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 8 | EIDs: {'evidence_03'} | Systems: {'search_service', 'account_service', 'support_platform', 'security_service'}
+case_14 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 5 | EIDs: {'evidence_03'} | Systems: {'account_service', 'backup_service', 'security_service'}
+case_15 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 5 | EIDs: {'evidence_01'} | Systems: {'integration_service', 'account_service', 'security_service'}
+case_16 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 7 | EIDs: {'evidence_05'} | Systems: {'search_service', 'account_service', 'security_service'}
+case_17 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 5 | EIDs: {'evidence_01'} | Systems: {'account_service', 'backup_service', 'security_service'}
+case_18 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 14 | EIDs: {'evidence_94'} | Systems: {'account_service', 'security_service', 'search_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_19 | Status: INCOMPLETE | Reported: PARTIALLY_COMPLETE | Steps: 8 | EIDs: {'evidence_01'} | Systems: {'search_service', 'account_service', 'support_platform', 'security_service'}
+case_20 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 8 | EIDs: {'evidence_94'} | Systems: {'integration_service', 'search_service', 'account_service', 'security_service'}
+case_21 | Status: COMPLETE | Reported: COMPLETE | Steps: 3 | EIDs: {'evidence_92'} | Systems: {'analytics_platform', 'account_service', 'security_service'}
+case_22 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 8 | EIDs: {'evidence_05'} | Systems: {'analytics_platform', 'search_service', 'account_service', 'security_service'}
+case_23 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 8 | EIDs: {'evidence_92'} | Systems: {'account_service', 'search_service', 'export_service', 'security_service'}
+case_24 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 7 | EIDs: {'evidence_92'} | Systems: {'search_service', 'account_service', 'security_service'}
+case_25 | Status: COMPLETE | Reported: NOT_STARTED | Steps: 3 | EIDs: {'evidence_92'} | Systems: {'analytics_platform', 'account_service', 'security_service'}
+case_26 | Status: COMPLETE | Reported: NOT_STARTED | Steps: 6 | EIDs: {'evidence_92'} | Systems: {'account_service', 'backup_service', 'security_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_27 | Status: COMPLETE | Reported: COMPLETE | Steps: 6 | EIDs: {'evidence_92'} | Systems: {'account_service', 'backup_service', 'security_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_28 | Status: COMPLETE | Reported: NOT_STARTED | Steps: 6 | EIDs: {'evidence_92'} | Systems: {'account_service', 'backup_service', 'security_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_29 | Status: INCOMPLETE | Reported: NOT_STARTED | Steps: 14 | EIDs: {'evidence_92'} | Systems: {'account_service', 'security_service', 'search_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_30 | Status: INCOMPLETE | Reported: COMPLETE | Steps: 14 | EIDs: {'evidence_92'} | Systems: {'account_service', 'security_service', 'search_service', 'analytics_platform', 'integration_service', 'support_platform'}
+case_31 | Status: COMPLETE | Reported: COMPLETE | Steps: 3 | EIDs: {'evidence_51'} | Systems: {'account_service', 'identity_service', 'security_service'}
+case_32 | Status: INCOMPLETE | Reported: PARTIALLY_COMPLETE | Steps: 5 | EIDs: {'evidence_51'} | Systems: {'account_service', 'identity_service', 'security_service'}

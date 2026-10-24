@@ -1,0 +1,127 @@
+Command exited with code 0.
+
+Command output:
+=== dataset/evidence/documents/account_history_report_20260718.pdf ===
+NORTHSTAR SHOP - CUSTOMER STATEMENT
+Statement NST-2026-0718-1842
+
+Customer and order
+Record
+
+Customer Ingrid Dahl
+
+Detail
+
+user_18
+
+Detail
+
+ingrid.dahl@outlook.com
+
+Detail
+
+statement NST-2026-0718-1842
+
+Detail
+
+order ORD-20261260
+
+Item
+
+Smart desk lamp, SKU LAMP-SD-04, quantity 1, subtotal EUR 54.95, shipping EUR 4.99, tax
+EUR 11.99, total EUR 71.93
+
+Record
+=== dataset/evidence/documents/delivery_correction_attachment.pdf ===
+DELIVERY ADDRESS CORRECTION REQUEST
+Support reference CS-4827 / support_001
+
+Customer request
+Record
+
+Northstar Shop Delivery Address Correction Request
+
+Detail
+
+reference CS-4827 / support_001
+
+Detail
+
+received 18 Jun 2026
+
+Detail
+
+Priya Raman
+
+Detail
+
+priya.raman@gmail.com
+
+Detail
+
++91 98765 73142
+
+Detail
+
+=== dataset/evidence/documents/legal_retention_register_20260529.pdf ===
+DISPUTED ORDERS AND TAX RECORDS REGISTER
+Finance Operations | May 2026
+
+Register details
+Record
+
+Register month May 2026
+
+Detail
+
+owner Finance Records
+
+Detail
+
+classification Internal
+
+generated 29 May 2026 08
+
+00 UTC
+
+Detail
+
+For each row add invoice date, finance owner, retain-until date, and case/reference number
+
+DISPUTED ORDERS AND TAX RECORDS REGISTER
+Continued - Review and custody notes
+
+Disputed order entries
+1
+
+=== dataset/evidence/documents/security_retention_extract.pdf ===
+COMPLIANCE JOURNAL - SIGNED RECORD EXTRACT
+Reference CJX-20260905-0630
+
+Journal entry
+Record
+
+Product Northstar Shop Compliance Journal
+
+Detail
+
+classification Internal Restricted
+
+Detail
+
+reference CJX-20260905-0630
+
+issued 05 Sep 2026 06
+
+30 UTC
+
+Record
+
+Event reference audit_record_003
+
+Detail
+
+subject reference user_03
+
+Detail
+

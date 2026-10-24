@@ -1,0 +1,6 @@
+Command exited with code 0.
+
+Command output:
+evidence_05 2026-09-21T10:00:00Z customer_data_read_replica_capture evidence/databases/customer_data_read_replica_20260921.sql
+evidence_49 2026-01-31T15:00:00Z records_assurance_snapshot_bundle evidence/records/customer_data_snapshot_bundle_20260131.json
+evidence_62 2026-01-29T11:44:59Z service_resource_export evidence/records/service_resource_export_20260129_114459.json

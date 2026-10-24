@@ -1,0 +1,11 @@
+Command exited with code 0.
+
+Command output:
+total 28
+drwxrwxr-x 7 skandan-c-y skandan-c-y 4096 Oct 24 22:03 .
+drwxrwxr-x 3 skandan-c-y skandan-c-y 4096 Oct 24 22:03 ..
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 databases
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 documents
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 images
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 logs
+drwxrwxr-x 2 skandan-c-y skandan-c-y 4096 Oct 24 22:03 records

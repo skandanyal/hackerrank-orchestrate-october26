@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+['account_service', 'analytics_platform', 'backup_service', 'export_service', 'integration_service', 'search_service', 'security_service', 'support_platform']
+account_service <class 'dict'> 1
+analytics_platform <class 'dict'> 1
+backup_service <class 'dict'> 1
+export_service <class 'dict'> 1
+integration_service <class 'dict'> 1
+search_service <class 'dict'> 1
+security_service <class 'dict'> 1
+support_platform <class 'dict'> 1

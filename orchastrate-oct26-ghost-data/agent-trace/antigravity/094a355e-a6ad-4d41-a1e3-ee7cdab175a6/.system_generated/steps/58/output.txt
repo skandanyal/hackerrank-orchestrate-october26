@@ -1,0 +1,27 @@
+Command exited with code 0.
+
+Command output:
+=== user_identities.csv (shape: (850, 6)) ===
+Columns: ['user_id', 'name', 'email', 'phone', 'email_hash', 'updated_at']
+   user_id  ...            updated_at
+0  user_01  ...  2026-05-28T04:03:00Z
+1  user_02  ...  2026-04-24T07:44:00Z
+
+[2 rows x 6 columns]
+
+=== user_audit_log.csv (shape: (306, 6)) ===
+Columns: ['audit_id', 'user_id', 'event_time', 'field_name', 'old_value', 'new_value']
+   audit_id   user_id  ...          old_value          new_value
+0  audit_01  user_485  ...  +33 6 24 34 80 16  +33 6 63 29 68 28
+1  audit_02  user_505  ...   +81 90 6278 6936   +81 90 7870 0272
+
+[2 rows x 6 columns]
+
+=== system_activity.csv (shape: (4011, 8)) ===
+Columns: ['activity_id', 'event_time', 'event_type', 'source_system', 'target_system', 'resource_id', 'reported_result', 'details']
+   activity_id  ...                                            details
+0  activity_01  ...  Customer search-index refresh processed search...
+1  activity_02  ...  Customer search-index refresh processed search...
+
+[2 rows x 8 columns]
+

@@ -1,0 +1,22 @@
+Command exited with code 0.
+
+Command output:
+Initializing Deletion Audit Agent with dataset from: /home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/dataset
+Auditing cases from: /home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/dataset/sample_deletion_requests.csv
+Total cases to audit: 32
+  Processed 32/32 cases...
+Completed 32 audits in 0.54 seconds (16.92 ms/case).
+Writing 32 predictions to: /home/skandan-c-y/PycharmProjects/hackerrank-orchestrate-october26/sample_predictions.csv
+Audit run finished successfully.
+
+=== Sample Predictions Evaluation Results ===
+  total_cases         : 32
+  status_accuracy     :  90.62%
+  precision           :  88.20%
+  recall              :  73.58%
+  f1                  :  80.23%
+  field_accuracy      :  99.77%
+  sequence_accuracy   :  40.62%
+  matched_steps       : 142
+  expected_steps      : 193
+  predicted_steps     : 161

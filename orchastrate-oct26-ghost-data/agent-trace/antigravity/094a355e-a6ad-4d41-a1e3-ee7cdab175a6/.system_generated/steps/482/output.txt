@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+total 1408
+drwxr-xr-x 3 skandan-c-y skandan-c-y   4096 Oct 24 22:04 .
+drwxr-xr-x 5 skandan-c-y skandan-c-y   4096 Oct 24 22:45 ..
+drwxr-xr-x 4 skandan-c-y skandan-c-y   4096 Oct 24 22:04 chunks
+-rw-r--r-- 1 skandan-c-y skandan-c-y 586754 Oct 24 23:47 transcript.jsonl
+-rw-r--r-- 1 skandan-c-y skandan-c-y 831229 Oct 24 23:47 transcript_full.jsonl

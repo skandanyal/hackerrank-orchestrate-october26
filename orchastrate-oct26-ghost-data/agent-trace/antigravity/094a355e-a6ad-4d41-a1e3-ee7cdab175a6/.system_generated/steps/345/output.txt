@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+    user_id  ...                                         email_hash
+11  user_12  ...  6e34ae5737be5401d915eb47a87a17264110c5a4e61c06...
+
+[1 rows x 3 columns]

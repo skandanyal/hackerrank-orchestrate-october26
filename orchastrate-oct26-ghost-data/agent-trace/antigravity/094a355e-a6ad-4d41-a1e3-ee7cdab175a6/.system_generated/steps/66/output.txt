@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+=== dataset/evidence/records/service_resource_export_20260807_074104.json ===
+Keys: ['exported_at', 'region', 'service_exports', 'source']
+exported_at: 2026-08-07T07:41:04Z
+=== dataset/evidence/records/service_resource_export_20260320_072349.json ===
+Keys: ['exported_at', 'region', 'service_exports', 'source']
+exported_at: 2026-03-20T07:23:49Z
+=== dataset/evidence/records/service_resource_export_20260514_114454.json ===
+Keys: ['exported_at', 'region', 'service_exports', 'source']
+exported_at: 2026-05-14T11:44:54Z

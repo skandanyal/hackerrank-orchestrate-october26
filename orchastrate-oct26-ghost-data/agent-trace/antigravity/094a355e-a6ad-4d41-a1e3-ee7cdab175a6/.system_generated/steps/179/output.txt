@@ -1,0 +1,261 @@
+Command exited with code 0.
+
+Command output:
+Total samples: 32
+=== case_01: User=user_01, Email=amina.elmasri@gmail.com, Status=COMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-18T09:14:00Z, RepAt=2026-08-20T16:42:00Z, AuditAt=2026-09-03T11:30:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_001, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_54
+=== case_02: User=user_02, Email=mateo.rios@outlook.com, Status=COMPLETE, RepStatus=PARTIALLY_COMPLETE ===
+ReqAt=2026-08-21T18:06:00Z, RepAt=2026-08-22T07:25:00Z, AuditAt=2026-09-04T15:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_002, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_54
+=== case_03: User=user_43, Email=l.fontaine46@yahoo.com, Status=COMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-13T11:00:00Z, RepAt=2026-09-15T11:00:00Z, AuditAt=2026-09-26T11:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_7566, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_94
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_2016, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_94
+  Step 3: [VERIFICATION] Sys=analytics_platform, Res=analytics_9406, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_94
+=== case_04: User=user_04, Email=thandiwe.n@gmail.com, Status=COMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-25T12:32:00Z, RepAt=2026-08-27T08:54:00Z, AuditAt=2026-09-07T10:20:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_004, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_54
+  Step 2: [VERIFICATION] Sys=analytics_platform, Res=analytics_901, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_56
+=== case_05: User=user_05, Email=leila.haddad@yahoo.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-27T14:17:00Z, RepAt=2026-08-28T09:03:00Z, AuditAt=2026-09-08T13:40:00Z
+  Step 1: [FINDING] Sys=account_service, Res=account_005, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_54
+  Step 2: [REMEDIATION] Sys=account_service, Res=account_005, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_005, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+=== case_06: User=user_06, Email=jonas.berg@outlook.com, Status=INCOMPLETE, RepStatus=PARTIALLY_COMPLETE ===
+ReqAt=2026-08-29T06:51:00Z, RepAt=2026-08-30T17:12:00Z, AuditAt=2026-09-10T09:15:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_001, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_57
+  Step 2: [REMEDIATION] Sys=search_service, Res=search_001, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_006, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=search_service, Res=search_001, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+=== case_07: User=user_07, Email=priya.raman@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-31T11:26:00Z, RepAt=2026-09-01T19:30:00Z, AuditAt=2026-09-12T08:00:00Z
+  Step 1: [FINDING] Sys=support_platform, Res=support_001, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_58
+  Step 2: [REMEDIATION] Sys=support_platform, Res=support_001, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_007, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=support_platform, Res=support_001, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+=== case_08: User=user_08, Email=gabriel.costa@proton.me, Status=INCOMPLETE, RepStatus=PARTIALLY_COMPLETE ===
+ReqAt=2026-08-29T20:03:00Z, RepAt=2026-08-31T13:44:00Z, AuditAt=2026-09-14T16:10:00Z
+  Step 1: [FINDING] Sys=export_service, Res=export_001, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_59
+  Step 2: [REMEDIATION] Sys=export_service, Res=export_001, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_008, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=export_service, Res=export_001, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+=== case_09: User=user_61, Email=k.appiah88@gmail.com, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-09-05T09:00:00Z, RepAt=2026-09-07T09:00:00Z, AuditAt=2026-09-16T09:00:00Z
+  Step 1: [FINDING] Sys=backup_service, Res=backup_4978, Op=REPORT_RESTORE_RISK, State=ACTIVE, Ev=evidence_93
+  Step 2: [REMEDIATION] Sys=backup_service, Res=backup_4978, Op=BLOCK_RESTORE, State=BLOCKED, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_3960, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=security_service, Res=audit_record_4902, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 5: [VERIFICATION] Sys=backup_service, Res=backup_4978, Op=VERIFY_RESTORE_BLOCKED, State=BLOCKED, Ev=
+=== case_10: User=user_10, Email=nadia.ionescu@yahoo.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-31T15:42:00Z, RepAt=2026-09-02T10:08:00Z, AuditAt=2026-09-18T12:25:00Z
+  Step 1: [FINDING] Sys=support_platform, Res=support_002, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_61
+  Step 2: [REMEDIATION] Sys=support_platform, Res=support_002, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_010, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=support_platform, Res=support_002, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+=== case_11: User=user_32, Email=novak.tomasz@icloud.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-09T12:00:00Z, RepAt=2026-09-12T12:00:00Z, AuditAt=2026-10-01T12:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_052, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_03
+  Step 2: [FINDING] Sys=analytics_platform, Res=analytics_2034, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_03
+  Step 3: [FINDING] Sys=support_platform, Res=support_864, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_03
+  Step 4: [FINDING] Sys=integration_service, Res=data_flow_9522, Op=REPORT_ACTIVE_DATA_FLOW, State=ACTIVE, Ev=evidence_03
+  Step 5: [REMEDIATION] Sys=integration_service, Res=data_flow_9522, Op=DISABLE_DATA_FLOW, State=DISABLED, Ev=
+  Step 6: [REMEDIATION] Sys=search_service, Res=search_052, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 7: [REMEDIATION] Sys=support_platform, Res=support_864, Op=REDACT_RECORD, State=REDACTED, Ev=
+  Step 8: [REMEDIATION] Sys=analytics_platform, Res=analytics_2034, Op=ANONYMIZE_RECORD, State=ANONYMIZED, Ev=
+  Step 9: [VERIFICATION] Sys=account_service, Res=account_4248, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 10: [VERIFICATION] Sys=search_service, Res=search_052, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 11: [VERIFICATION] Sys=security_service, Res=audit_record_9394, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 12: [VERIFICATION] Sys=support_platform, Res=support_864, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=
+  Step 13: [VERIFICATION] Sys=analytics_platform, Res=analytics_2034, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=
+  Step 14: [VERIFICATION] Sys=integration_service, Res=data_flow_9522, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=
+=== case_12: User=user_12, Email=minjun.kim@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-24T12:00:00Z, RepAt=2026-08-25T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=analytics_platform, Res=analytics_9914, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_01
+  Step 2: [REMEDIATION] Sys=analytics_platform, Res=analytics_9914, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_9797, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=analytics_platform, Res=analytics_9914, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 5: [VERIFICATION] Sys=security_service, Res=audit_record_2945, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+=== case_13: User=user_33, Email=noor-khalil@proton.me, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-09-08T12:00:00Z, RepAt=2026-09-09T12:00:00Z, AuditAt=2026-10-01T12:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_1308, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_03
+  Step 2: [FINDING] Sys=support_platform, Res=support_4218, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_03
+  Step 3: [REMEDIATION] Sys=search_service, Res=search_1308, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 4: [REMEDIATION] Sys=support_platform, Res=support_4218, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_9335, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=search_service, Res=search_1308, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=support_platform, Res=support_4218, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 8: [VERIFICATION] Sys=security_service, Res=audit_record_4816, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+=== case_14: User=user_37, Email=y.tanaka32@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-04T12:00:00Z, RepAt=2026-09-06T12:00:00Z, AuditAt=2026-10-01T12:00:00Z
+  Step 1: [FINDING] Sys=backup_service, Res=backup_3870, Op=REPORT_RESTORE_RISK, State=ACTIVE, Ev=evidence_03
+  Step 2: [REMEDIATION] Sys=backup_service, Res=backup_3870, Op=BLOCK_RESTORE, State=BLOCKED, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_3677, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=security_service, Res=audit_record_987, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 5: [VERIFICATION] Sys=backup_service, Res=backup_3870, Op=VERIFY_RESTORE_BLOCKED, State=BLOCKED, Ev=
+=== case_15: User=user_15, Email=lucia-torres@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-21T12:00:00Z, RepAt=2026-08-22T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=integration_service, Res=data_flow_9846, Op=REPORT_ACTIVE_DATA_FLOW, State=ACTIVE, Ev=evidence_01
+  Step 2: [REMEDIATION] Sys=integration_service, Res=data_flow_9846, Op=DISABLE_DATA_FLOW, State=DISABLED, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_4745, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=security_service, Res=audit_record_1596, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 5: [VERIFICATION] Sys=integration_service, Res=data_flow_9846, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=
+=== case_16: User=user_53, Email=diya.k4436@outlook.com, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-08-29T10:00:00Z, RepAt=2026-09-01T10:00:00Z, AuditAt=2026-09-21T10:00:00Z
+  Step 1: [FINDING] Sys=account_service, Res=account_994, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_05
+  Step 2: [FINDING] Sys=search_service, Res=search_1007, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_05
+  Step 3: [REMEDIATION] Sys=account_service, Res=account_994, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 4: [REMEDIATION] Sys=search_service, Res=search_1007, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_994, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=search_service, Res=search_1007, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=security_service, Res=audit_record_9528, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+=== case_17: User=user_17, Email=leonie.g9352@outlook.com, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-08-19T12:00:00Z, RepAt=2026-08-22T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=backup_service, Res=backup_3245, Op=REPORT_RESTORE_RISK, State=ACTIVE, Ev=evidence_01
+  Step 2: [REMEDIATION] Sys=backup_service, Res=backup_3245, Op=BLOCK_RESTORE, State=BLOCKED, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_4092, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=security_service, Res=audit_record_1797, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 5: [VERIFICATION] Sys=backup_service, Res=backup_3245, Op=VERIFY_RESTORE_BLOCKED, State=BLOCKED, Ev=
+=== case_18: User=user_50, Email=mori.ren@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-06T11:00:00Z, RepAt=2026-09-09T11:00:00Z, AuditAt=2026-09-26T11:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_4013, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_94
+  Step 2: [FINDING] Sys=analytics_platform, Res=analytics_037, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_94
+  Step 3: [FINDING] Sys=support_platform, Res=support_5569, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_94
+  Step 4: [FINDING] Sys=integration_service, Res=data_flow_4890, Op=REPORT_ACTIVE_DATA_FLOW, State=ACTIVE, Ev=evidence_94
+  Step 5: [REMEDIATION] Sys=integration_service, Res=data_flow_4890, Op=DISABLE_DATA_FLOW, State=DISABLED, Ev=
+  Step 6: [REMEDIATION] Sys=search_service, Res=search_4013, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 7: [REMEDIATION] Sys=support_platform, Res=support_5569, Op=REDACT_RECORD, State=REDACTED, Ev=
+  Step 8: [REMEDIATION] Sys=analytics_platform, Res=analytics_037, Op=ANONYMIZE_RECORD, State=ANONYMIZED, Ev=
+  Step 9: [VERIFICATION] Sys=account_service, Res=account_5521, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 10: [VERIFICATION] Sys=search_service, Res=search_4013, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 11: [VERIFICATION] Sys=security_service, Res=audit_record_6645, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 12: [VERIFICATION] Sys=support_platform, Res=support_5569, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=
+  Step 13: [VERIFICATION] Sys=analytics_platform, Res=analytics_037, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=
+  Step 14: [VERIFICATION] Sys=integration_service, Res=data_flow_4890, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=
+=== case_19: User=user_19, Email=e.varga90@yahoo.com, Status=INCOMPLETE, RepStatus=PARTIALLY_COMPLETE ===
+ReqAt=2026-08-17T12:00:00Z, RepAt=2026-08-19T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_6083, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_01
+  Step 2: [FINDING] Sys=support_platform, Res=support_9553, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_01
+  Step 3: [REMEDIATION] Sys=search_service, Res=search_6083, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 4: [REMEDIATION] Sys=support_platform, Res=support_9553, Op=REDACT_RECORD, State=REDACTED, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_9102, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=search_service, Res=search_6083, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=security_service, Res=audit_record_6793, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 8: [VERIFICATION] Sys=support_platform, Res=support_9553, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=
+=== case_20: User=user_48, Email=akosua.gyasi@gmail.com, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-09-08T11:00:00Z, RepAt=2026-09-09T11:00:00Z, AuditAt=2026-09-26T11:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_4262, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_94
+  Step 2: [FINDING] Sys=integration_service, Res=data_flow_1770, Op=REPORT_ACTIVE_DATA_FLOW, State=ACTIVE, Ev=evidence_94
+  Step 3: [REMEDIATION] Sys=integration_service, Res=data_flow_1770, Op=DISABLE_DATA_FLOW, State=DISABLED, Ev=
+  Step 4: [REMEDIATION] Sys=search_service, Res=search_4262, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_5037, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=search_service, Res=search_4262, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=security_service, Res=audit_record_5569, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 8: [VERIFICATION] Sys=integration_service, Res=data_flow_1770, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=
+=== case_21: User=user_21, Email=amara-okeke@proton.me, Status=COMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-04T12:00:00Z, RepAt=2026-09-05T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_6440, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_92
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_3737, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_92
+  Step 3: [VERIFICATION] Sys=analytics_platform, Res=analytics_5335, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_92
+=== case_22: User=user_51, Email=seoyeon-han@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-31T10:00:00Z, RepAt=2026-09-01T10:00:00Z, AuditAt=2026-09-21T10:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_8911, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_05
+  Step 2: [FINDING] Sys=analytics_platform, Res=analytics_4440, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_05
+  Step 3: [REMEDIATION] Sys=search_service, Res=search_8911, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 4: [REMEDIATION] Sys=analytics_platform, Res=analytics_4440, Op=ANONYMIZE_RECORD, State=ANONYMIZED, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_4990, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=search_service, Res=search_8911, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=security_service, Res=audit_record_3482, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 8: [VERIFICATION] Sys=analytics_platform, Res=analytics_4440, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=
+=== case_23: User=user_23, Email=thandiwe.m6866@zoho.com, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-09-02T12:00:00Z, RepAt=2026-09-05T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=export_service, Res=export_7364, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_92
+  Step 2: [FINDING] Sys=search_service, Res=search_898, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_92
+  Step 3: [REMEDIATION] Sys=export_service, Res=export_7364, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 4: [REMEDIATION] Sys=search_service, Res=search_898, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_410, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=export_service, Res=export_7364, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=search_service, Res=search_898, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 8: [VERIFICATION] Sys=security_service, Res=audit_record_4128, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+=== case_24: User=user_24, Email=keiko.nakamura@gmail.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-01T12:00:00Z, RepAt=2026-09-02T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=account_service, Res=account_5334, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_92
+  Step 2: [FINDING] Sys=search_service, Res=search_5577, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_92
+  Step 3: [REMEDIATION] Sys=account_service, Res=account_5334, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 4: [REMEDIATION] Sys=search_service, Res=search_5577, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 5: [VERIFICATION] Sys=account_service, Res=account_5334, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 6: [VERIFICATION] Sys=search_service, Res=search_5577, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 7: [VERIFICATION] Sys=security_service, Res=audit_record_7095, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+=== case_25: User=user_25, Email=s.yoon04@gmail.com, Status=COMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-08-31T12:00:00Z, RepAt=2026-09-02T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_3136, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_92
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_451, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_92
+  Step 3: [VERIFICATION] Sys=analytics_platform, Res=analytics_1895, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_92
+=== case_26: User=user_26, Email=almeida.mariana@gmail.com, Status=COMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-08-30T12:00:00Z, RepAt=2026-09-02T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_5684, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_92
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_5416, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_92
+  Step 3: [VERIFICATION] Sys=support_platform, Res=support_4715, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=evidence_92
+  Step 4: [VERIFICATION] Sys=analytics_platform, Res=analytics_4566, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_92
+  Step 5: [VERIFICATION] Sys=integration_service, Res=data_flow_6244, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=evidence_92
+  Step 6: [VERIFICATION] Sys=backup_service, Res=backup_3120, Op=VERIFY_RESTORE_BLOCKED, State=BLOCKED, Ev=evidence_92
+=== case_27: User=user_27, Email=ananya-nair@gmail.com, Status=COMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-29T12:00:00Z, RepAt=2026-08-30T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_3866, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_92
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_3830, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_92
+  Step 3: [VERIFICATION] Sys=support_platform, Res=support_4707, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=evidence_92
+  Step 4: [VERIFICATION] Sys=analytics_platform, Res=analytics_4574, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_92
+  Step 5: [VERIFICATION] Sys=integration_service, Res=data_flow_2295, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=evidence_92
+  Step 6: [VERIFICATION] Sys=backup_service, Res=backup_5970, Op=VERIFY_RESTORE_BLOCKED, State=BLOCKED, Ev=evidence_92
+=== case_28: User=user_28, Email=smartinez6461@gmail.com, Status=COMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-08-28T12:00:00Z, RepAt=2026-08-30T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_5482, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_92
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_9265, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_92
+  Step 3: [VERIFICATION] Sys=support_platform, Res=support_2351, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=evidence_92
+  Step 4: [VERIFICATION] Sys=analytics_platform, Res=analytics_6077, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=evidence_92
+  Step 5: [VERIFICATION] Sys=integration_service, Res=data_flow_2337, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=evidence_92
+  Step 6: [VERIFICATION] Sys=backup_service, Res=backup_838, Op=VERIFY_RESTORE_BLOCKED, State=BLOCKED, Ev=evidence_92
+=== case_29: User=user_29, Email=noah.f438085@outlook.com, Status=INCOMPLETE, RepStatus=NOT_STARTED ===
+ReqAt=2026-08-27T12:00:00Z, RepAt=2026-08-30T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_1993, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_92
+  Step 2: [FINDING] Sys=analytics_platform, Res=analytics_5208, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_92
+  Step 3: [FINDING] Sys=support_platform, Res=support_5281, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_92
+  Step 4: [FINDING] Sys=integration_service, Res=data_flow_3827, Op=REPORT_ACTIVE_DATA_FLOW, State=ACTIVE, Ev=evidence_92
+  Step 5: [REMEDIATION] Sys=integration_service, Res=data_flow_3827, Op=DISABLE_DATA_FLOW, State=DISABLED, Ev=
+  Step 6: [REMEDIATION] Sys=search_service, Res=search_1993, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 7: [REMEDIATION] Sys=support_platform, Res=support_5281, Op=REDACT_RECORD, State=REDACTED, Ev=
+  Step 8: [REMEDIATION] Sys=analytics_platform, Res=analytics_5208, Op=ANONYMIZE_RECORD, State=ANONYMIZED, Ev=
+  Step 9: [VERIFICATION] Sys=account_service, Res=account_7012, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 10: [VERIFICATION] Sys=search_service, Res=search_1993, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 11: [VERIFICATION] Sys=security_service, Res=audit_record_3954, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 12: [VERIFICATION] Sys=support_platform, Res=support_5281, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=
+  Step 13: [VERIFICATION] Sys=analytics_platform, Res=analytics_5208, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=
+  Step 14: [VERIFICATION] Sys=integration_service, Res=data_flow_3827, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=
+=== case_30: User=user_30, Email=camille.bernard86@outlook.com, Status=INCOMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-08-26T12:00:00Z, RepAt=2026-08-27T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=search_service, Res=search_9359, Op=REPORT_REMAINING_RECORD, State=PRESENT, Ev=evidence_92
+  Step 2: [FINDING] Sys=analytics_platform, Res=analytics_3697, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_92
+  Step 3: [FINDING] Sys=support_platform, Res=support_6477, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_92
+  Step 4: [FINDING] Sys=integration_service, Res=data_flow_8524, Op=REPORT_ACTIVE_DATA_FLOW, State=ACTIVE, Ev=evidence_92
+  Step 5: [REMEDIATION] Sys=integration_service, Res=data_flow_8524, Op=DISABLE_DATA_FLOW, State=DISABLED, Ev=
+  Step 6: [REMEDIATION] Sys=search_service, Res=search_9359, Op=DELETE_RECORD, State=ABSENT, Ev=
+  Step 7: [REMEDIATION] Sys=support_platform, Res=support_6477, Op=REDACT_RECORD, State=REDACTED, Ev=
+  Step 8: [REMEDIATION] Sys=analytics_platform, Res=analytics_3697, Op=ANONYMIZE_RECORD, State=ANONYMIZED, Ev=
+  Step 9: [VERIFICATION] Sys=account_service, Res=account_4163, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 10: [VERIFICATION] Sys=search_service, Res=search_9359, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 11: [VERIFICATION] Sys=security_service, Res=audit_record_1707, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 12: [VERIFICATION] Sys=support_platform, Res=support_6477, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=
+  Step 13: [VERIFICATION] Sys=analytics_platform, Res=analytics_3697, Op=VERIFY_RECORD_ANONYMIZED, State=ANONYMIZED, Ev=
+  Step 14: [VERIFICATION] Sys=integration_service, Res=data_flow_8524, Op=VERIFY_DATA_FLOW_DISABLED, State=DISABLED, Ev=
+=== case_31: User=user_541, Email=a.eze08@gmail.com, Status=COMPLETE, RepStatus=COMPLETE ===
+ReqAt=2026-09-04T12:00:00Z, RepAt=2026-09-06T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [VERIFICATION] Sys=account_service, Res=account_4857, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=evidence_51
+  Step 2: [VERIFICATION] Sys=security_service, Res=audit_record_6909, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=evidence_51
+  Step 3: [VERIFICATION] Sys=identity_service, Res=tombstone_440, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=evidence_51
+=== case_32: User=user_542, Email=addo.kofi@gmail.com, Status=INCOMPLETE, RepStatus=PARTIALLY_COMPLETE ===
+ReqAt=2026-09-03T12:00:00Z, RepAt=2026-09-06T12:00:00Z, AuditAt=2026-09-15T12:00:00Z
+  Step 1: [FINDING] Sys=identity_service, Res=tombstone_9178, Op=REPORT_EXPOSED_PII, State=PRESENT, Ev=evidence_51
+  Step 2: [REMEDIATION] Sys=identity_service, Res=tombstone_9178, Op=REDACT_RECORD, State=REDACTED, Ev=
+  Step 3: [VERIFICATION] Sys=account_service, Res=account_8858, Op=VERIFY_RECORD_ABSENT, State=ABSENT, Ev=
+  Step 4: [VERIFICATION] Sys=security_service, Res=audit_record_7068, Op=VERIFY_RECORD_PRESENT, State=PRESENT, Ev=
+  Step 5: [VERIFICATION] Sys=identity_service, Res=tombstone_9178, Op=VERIFY_RECORD_REDACTED, State=REDACTED, Ev=

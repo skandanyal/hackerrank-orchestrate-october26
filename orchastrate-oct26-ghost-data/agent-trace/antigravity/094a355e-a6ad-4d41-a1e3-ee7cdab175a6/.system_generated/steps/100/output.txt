@@ -1,0 +1,7 @@
+Command exited with code 0.
+
+Command output:
+        activity_id  ...                                            details
+3341  activity_3342  ...  Deletion worker reported the requested operati...
+
+[1 rows x 8 columns]

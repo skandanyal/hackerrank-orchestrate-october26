@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+Query returned in 2.25ms: [('account_005', 'user_05', 'Leila Haddad', 'leila.haddad@yahoo.com', '+212 6 48 27 15 93', 'ACTIVE', '2026-09-02T22:45:00Z')]

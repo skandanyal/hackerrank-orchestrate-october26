@@ -1,0 +1,8 @@
+Command exited with code 0.
+
+Command output:
+evidence_03 customer_account_service evidence/records/customer_account_handover_20261001.txt
+evidence_30 central_observability_export evidence/logs/service_events_sa_east_20260516.log
+evidence_31 records_assurance_snapshot_bundle evidence/records/customer_data_snapshot_bundle_20260511.json
+evidence_73 service_readback_logs evidence/logs/resource_lookup_trace_20260509_104353.log
+evidence_74 service_resource_export evidence/records/service_resource_export_20260514_114454.json

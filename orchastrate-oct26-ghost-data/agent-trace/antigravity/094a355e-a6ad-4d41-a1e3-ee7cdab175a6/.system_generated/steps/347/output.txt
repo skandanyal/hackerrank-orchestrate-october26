@@ -1,0 +1,12 @@
+Command exited with code 0.
+
+Command output:
+      audit_id  ...                                          new_value
+281  audit_282  ...                               minjun.kim@gmail.com
+282  audit_283  ...  6e34ae5737be5401d915eb47a87a17264110c5a4e61c06...
+
+[2 rows x 6 columns]
+minjun.kim90@gmail.com 44a65154bfd8e408852578fbd76813d094d1944f255ac1769ee81ba90492f10e
+44a65154bfd8e408852578fbd76813d094d1944f255ac1769ee81ba90492f10e 8e1760fcbed84ffd278ebfdd07fb56f5326967fa34f755beddf5bab61f47b425
+minjun.kim@gmail.com 6e34ae5737be5401d915eb47a87a17264110c5a4e61c06f20b6a121f1520b9d2
+6e34ae5737be5401d915eb47a87a17264110c5a4e61c06f20b6a121f1520b9d2 b4972f937121b3676e5cb6594f91cfc3c31e2c2432be349370c9ca47a63f3dba

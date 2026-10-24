@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+req_df head: ['case_33', 'case_34', 'case_35', 'case_36', 'case_37']
+df head:     ['case_100', 'case_101', 'case_102', 'case_103', 'case_104']
+req_df tail: ['case_546', 'case_547', 'case_548', 'case_549', 'case_550']
+df tail:     ['case_95', 'case_96', 'case_97', 'case_98', 'case_99']
+is df sorted by case_id?: True
+is req_df sorted by case_id?: False

@@ -1,0 +1,4 @@
+Command exited with code 0.
+
+Command output:
+evidence_51 2026-09-15T12:00:00Z records_assurance_snapshot_bundle evidence/records/customer_data_snapshot_bundle_20260915.json

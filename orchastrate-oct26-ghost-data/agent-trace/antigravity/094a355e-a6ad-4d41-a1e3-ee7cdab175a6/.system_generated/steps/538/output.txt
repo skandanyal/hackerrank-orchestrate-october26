@@ -1,0 +1,28 @@
+Command exited with code 0.
+
+Command output:
+Archive:  code.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    11110  2026-10-24 23:46   README.md
+        0  2026-10-24 23:54   code/
+        0  2026-10-24 23:57   code/engines/
+    13982  2026-10-24 23:57   code/engines/audit_engine.py
+     1406  2026-10-24 23:55   code/engines/intent_engine.py
+     1952  2026-10-24 23:56   code/engines/policy_engine.py
+    24692  2026-10-24 23:56   code/engines/evidence_engine.py
+      921  2026-10-24 23:55   code/engines/__init__.py
+     3651  2026-10-24 23:55   code/engines/identity_engine.py
+        0  2026-10-24 23:40   code/evaluation/
+     9267  2026-10-24 23:40   code/evaluation/evaluation_report.md
+     5956  2026-10-24 23:43   code/evaluation/main.py
+     5614  2026-10-24 23:03   code/evaluation/custom_test_suite.py
+     3923  2026-10-24 23:40   code/evaluation/usage_report.md
+     4261  2026-10-24 23:57   code/main.py
+        0  2026-10-24 23:43   evaluation/
+     9267  2026-10-24 23:41   evaluation/evaluation_report.md
+     5956  2026-10-24 23:43   evaluation/main.py
+     5614  2026-10-24 23:43   evaluation/custom_test_suite.py
+     3923  2026-10-24 23:41   evaluation/usage_report.md
+---------                     -------
+   111495                     20 files

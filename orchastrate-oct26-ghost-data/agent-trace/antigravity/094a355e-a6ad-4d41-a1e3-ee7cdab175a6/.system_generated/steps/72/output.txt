@@ -1,0 +1,25 @@
+Command exited with code 0.
+
+Command output:
+{
+  "profile_lookups": [
+    {
+      "observed_at": "2026-08-07T05:55:37Z",
+      "profile": null,
+      "resource_id": "account_3897",
+      "status_code": 404
+    },
+    {
+      "observed_at": "2026-08-07T05:59:32Z",
+      "profile": null,
+      "resource_id": "account_874",
+      "status_code": 404
+    },
+    {
+      "observed_at": "2026-08-07T07:39:36Z",
+      "profile": null,
+      "resource_id": "account_8854",
+      "status_code": 404
+    }
+  ]
+}
